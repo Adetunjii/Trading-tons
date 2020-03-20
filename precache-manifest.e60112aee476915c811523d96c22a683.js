@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "59a62f80b6136d13bcc6d4a22f41ce1f",
+    "revision": "8154f086d7a1aec13f7f881c467e7764",
     "url": "/Trading-tons/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Trading-tons/static/css/2.8927d26c.chunk.css"
   },
   {
-    "revision": "94d4de36ac43725d9c2d",
+    "revision": "91e931fd09cc30559e71",
     "url": "/Trading-tons/static/css/main.f8fbea8d.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Trading-tons/static/js/2.3b599b59.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "94d4de36ac43725d9c2d",
-    "url": "/Trading-tons/static/js/main.b327e9c5.chunk.js"
+    "revision": "91e931fd09cc30559e71",
+    "url": "/Trading-tons/static/js/main.5656f5df.chunk.js"
   },
   {
     "revision": "5ce9e534995b0d6a78cc",
