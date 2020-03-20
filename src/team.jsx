@@ -148,60 +148,43 @@ class Team extends Component {
                       >
                         READ MORE
                       </button>
-                      <MDBContainer>
-                        <MDBModal
-                          className="z-depth-0 p-3"
-                          isOpen={this.state.modal13}
-                          toggle={this.toggle(13)}
-                          backdrop={false}
-                          fullHeight
-                          position="top"
-                          style={{
-                            boxShadow: "0px 5px 5px 5px rgb(0, 163, 0)"
-                          }}
-                        >
-                          <MDBModalHeader
-                            toggle={this.toggle(13)}
-                            className="text-left team-name"
-                          >
-                            {this.state.name}
-                            <p
-                              className="text-left px-2"
-                              style={{
-                                color: "black",
-                                fontFamily: "Palanquin, sans-serif",
-                                fontSize: "18px",
-                                fontStyle: "normal",
-                                fontWeight: "500"
-                              }}
-                            >
-                              {this.state.position}
-                            </p>
-                          </MDBModalHeader>
-                          <MDBModalBody>
-                            <div className="row px-3">
-                              <div className="col-lg-3">
-                                <img
-                                  className="img-fluid"
-                                  src={this.state.imageUrl}
-                                  alt={this.state.name}
-                                />
-                              </div>
-                              <div className="col-lg-9">
-                                <p className="team-text text-left">
-                                  {this.state.description}
-                                </p>
-                              </div>
-                            </div>
-                          </MDBModalBody>
-                        </MDBModal>
-                      </MDBContainer>
                     </MDBCardBody>
                   </MDBCard>
                 </div>
               </div>
             ))}
           </MDBRow>
+
+          <MDBContainer>
+            <MDBModal
+              isOpen={this.state.modal13}
+              toggle={this.toggle(13)}
+              fullHeight
+              position="top"
+            >
+              <MDBModalHeader toggle={this.toggle(13)} className="team-name">
+                {this.state.name}
+              </MDBModalHeader>
+              <MDBModalBody className="py-2">
+                <div className="row">
+                  <div className="col-lg-4">
+                    <img
+                      src={this.state.imageUrl}
+                      alt={this.state.name}
+                      className="img-responsive img-fluid"
+                      style={{
+                        width: "150px",
+                        height: "150px"
+                      }}
+                    />
+                  </div>
+                  <div className="col-lg-8 text-left team-text-mini">
+                    {this.state.description}
+                  </div>
+                </div>
+              </MDBModalBody>
+            </MDBModal>
+          </MDBContainer>
         </div>
       </div>
     );

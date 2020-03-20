@@ -19,6 +19,14 @@
     color: grey;
 }
 
+.team-text-mini {
+    font-family: "Palanquin", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 0.3px;
+    color: grey;
+}
+
 .team-btn {
     background: rgb(0, 163, 0);
 }
