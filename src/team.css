@@ -1,0 +1,24 @@
+.card-img {
+    height: 100px;
+    width: 100px;
+}
+
+.team-name {
+    font-family: "Palanquin", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1;
+    color: rgb(0, 163, 0)
+}
+
+.team-text {
+    font-family: "Palanquin", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 0.3px;
+    color: grey;
+}
+
+.team-btn {
+    background: rgb(0, 163, 0);
+}

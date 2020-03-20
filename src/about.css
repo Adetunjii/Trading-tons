@@ -1,0 +1,70 @@
+.about-header {
+    font-family: 'Palanquin', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    color: rgb(110, 110, 110);
+}
+
+.about-text {
+    font-family: 'Palanquin', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.7;
+    font-style: normal;
+    color: grey;
+}
+
+.quality-header {
+    font-family: 'Palanquin', sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 2;
+    letter-spacing: 1px;
+    color: rgb(126, 123, 123);
+}
+
+.quality-text {
+    font-family: 'Palanquin', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.2px;
+    color: grey;
+}
+
+.card-shadow {
+    box-shadow: 0px 5px 10px 10px rgba(74, 255, 24, 0.233);
+    border-radius: 15px;
+}
+
+
+.quality-img {
+    width: 100px;
+    height: 100px;
+}
+
+
+.counter-text {
+    font-family: 'Palanquin', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 2;
+    letter-spacing: 3px;
+    color: rgb(48, 179, 9);
+}
+
+@media only screen and (max-width: 768px) {
+    .counter-text {
+        font-family: 'Palanquin', sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 2;
+        letter-spacing: 2px;
+        color: rgb(48, 179, 9);
+    }
+}
+
+.counter-container {
+    background-color: white;
+}
