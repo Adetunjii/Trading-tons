@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.f8fbea8d.chunk.css",
+    "main.js": "/my-app/static/js/main.30880f8c.chunk.js",
+    "main.js.map": "/my-app/static/js/main.30880f8c.chunk.js.map",
+    "runtime-main.js": "/my-app/static/js/runtime-main.1e4e665e.js",
+    "runtime-main.js.map": "/my-app/static/js/runtime-main.1e4e665e.js.map",
+    "static/css/2.153904cf.chunk.css": "/my-app/static/css/2.153904cf.chunk.css",
+    "static/js/2.3b599b59.chunk.js": "/my-app/static/js/2.3b599b59.chunk.js",
+    "static/js/2.3b599b59.chunk.js.map": "/my-app/static/js/2.3b599b59.chunk.js.map",
+    "index.html": "/my-app/index.html",
+    "precache-manifest.88d07a5b0efabb791257c5abaf81530e.js": "/my-app/precache-manifest.88d07a5b0efabb791257c5abaf81530e.js",
+    "service-worker.js": "/my-app/service-worker.js",
+    "static/css/2.153904cf.chunk.css.map": "/my-app/static/css/2.153904cf.chunk.css.map",
+    "static/css/main.f8fbea8d.chunk.css.map": "/my-app/static/css/main.f8fbea8d.chunk.css.map",
+    "static/js/2.3b599b59.chunk.js.LICENSE.txt": "/my-app/static/js/2.3b599b59.chunk.js.LICENSE.txt",
+    "static/media/Cobus.jpg": "/my-app/static/media/Cobus.80881d9c.jpg",
+    "static/media/arabic_gum.jpg": "/my-app/static/media/arabic_gum.942c85b2.jpg",
+    "static/media/mdb.css": "/my-app/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/charles.png": "/my-app/static/media/charles.55acc265.png",
+    "static/media/cover.jpg": "/my-app/static/media/cover.d2ccacf9.jpg",
+    "static/media/download.png": "/my-app/static/media/download.ae0f94f8.png",
+    "static/media/dry_ginger.jpg": "/my-app/static/media/dry_ginger.4f54044d.jpg",
+    "static/media/erik.png": "/my-app/static/media/erik.d12253b2.png",
+    "static/media/all.min.css": "/my-app/static/media/fa-solid-900.cdfec5cf.woff",
+    "static/media/florian.jpg": "/my-app/static/media/florian.ec22c629.jpg",
+    "static/media/hibiscus.jpg": "/my-app/static/media/hibiscus.f2dd1ffa.jpg",
+    "static/media/peanuts.jpg": "/my-app/static/media/peanuts.ae889cf2.jpg",
+    "static/media/pricing.png": "/my-app/static/media/pricing.c6a98c18.png",
+    "static/media/quality.png": "/my-app/static/media/quality.f4d075fb.png",
+    "static/media/tumeric.jpg": "/my-app/static/media/tumeric.c3c02407.jpg",
+    "static/media/tunde.jpg": "/my-app/static/media/tunde.fd65cccb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1e4e665e.js",
+    "static/css/2.153904cf.chunk.css",
+    "static/js/2.3b599b59.chunk.js",
+    "static/css/main.f8fbea8d.chunk.css",
+    "static/js/main.30880f8c.chunk.js"
+  ]
+}
