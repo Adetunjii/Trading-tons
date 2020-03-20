@@ -46,7 +46,7 @@ const App = () => {
                   <MDBNavbarNav right>
                     {routes.map(route => (
                       <MDBNavItem>
-                        <MDBNavLink to={"/#" + route} target="_parent" active>
+                        <MDBNavLink to={"#" + route} target="_parent" active>
                           <span className="nav-link white-text">{route}</span>
                         </MDBNavLink>
                       </MDBNavItem>
