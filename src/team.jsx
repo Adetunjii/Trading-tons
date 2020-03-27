@@ -104,10 +104,10 @@ class Team extends Component {
     ];
 
     return (
-      <div className="container" id={this.props.id}>
+      <div className="container py-5" id={this.props.id}>
         <div className="text-center">
-          <p className="goods-text">WHO WE ARE</p>
-          <h1 className="product-header">OUR TEAM</h1>
+          <p style={{ color: "rgb(15, 214, 15)" }}>WHO WE ARE</p>
+          <h1 className="about-header py-3">OUR TEAM</h1>
           <MDBRow className=" my-5 mx-md-n5 py-5">
             {team.map(team => (
               <div className="col-lg-4">
