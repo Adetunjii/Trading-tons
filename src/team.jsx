@@ -113,7 +113,6 @@ class Team extends Component {
               <div className="col-lg-4">
                 <div className="justify-content-center">
                   <MDBCard
-                    className="hoverable"
                     style={{
                       borderRadius: "20px",
                       marginBottom: "150px",
@@ -133,7 +132,7 @@ class Team extends Component {
                         alt="lanre.jpg"
                       />
                     </center>
-                    <MDBCardBody>
+                    <MDBCardBody className="my-bg">
                       <h2 className="team-name">{team.name}</h2>
                       <p className="team-text px-1">{team.shortDesc}</p>
                       <button
@@ -162,8 +161,12 @@ class Team extends Component {
               fullHeight
               position="top"
             >
-              <MDBModalHeader toggle={this.toggle(13)} className="team-name">
+              <MDBModalHeader
+                toggle={this.toggle(13)}
+                className="team-name text-left"
+              >
                 {this.state.name}
+                <h4 className="grey-text text-left">{this.state.position}</h4>
               </MDBModalHeader>
               <MDBModalBody className="py-2">
                 <div className="row">
@@ -178,7 +181,7 @@ class Team extends Component {
                       }}
                     />
                   </div>
-                  <div className="col-lg-8 text-left team-text-mini">
+                  <div className="col-lg-8 text-left team-text">
                     {this.state.description}
                   </div>
                 </div>

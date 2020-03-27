@@ -3,6 +3,10 @@
     width: 100px;
 }
 
+.my-bg {
+    background: transparent;
+}
+
 .team-name {
     font-family: "Palanquin", sans-serif;
     font-size: 30px;
@@ -13,18 +17,20 @@
 
 .team-text {
     font-family: "Palanquin", sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: normal;
     letter-spacing: 0.3px;
     color: grey;
 }
 
-.team-text-mini {
-    font-family: "Palanquin", sans-serif;
-    font-size: 14px;
-    font-weight: normal;
-    letter-spacing: 0.3px;
-    color: grey;
+@media only screen and (max-width: 768px) {
+    .team-text {
+        font-family: "Palanquin", sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        letter-spacing: 0.3px;
+        color: grey;
+    }
 }
 
 .team-btn {

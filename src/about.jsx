@@ -7,7 +7,7 @@ import * as pricing from "./assets/pricing.png";
 
 const About = props => {
   return (
-    <MDBContainer id={props.id} className="margin-extreme">
+    <MDBContainer id={props.id} className="bg-transparent margin-extreme">
       <div className="row py-5">
         <div className="col-md-4 text-left">
           <p className="green-text ">WHO WE ARE</p>

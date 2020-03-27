@@ -160,83 +160,84 @@ const Product = props => {
 
   return (
     <div className="margin" id={props.id}>
-      <div
-        className="bg-white flex-center"
-        style={{ borderTopLeftRadius: "40px", borderTopRightRadius: "40px" }}
-      >
-        <MDBContainer>
-          <MDBRow className="justify-content-lg-center">
-            <div className="col-lg-2">
-              <RenderContinents />
-              <p className="quality-text">Continents</p>
-            </div>
-            <div className="col-lg-2">
-              <RenderWeps />
-              <p className="quality-text">Women Employed Per Shipment</p>
-            </div>
-            <div className="col-lg-2">
-              <RenderTonsShipped />
-              <p className="quality-text">Tonnage Shipped</p>
-            </div>
-            <div className="col-lg-2">
-              <RenderTradedCommodities />
-              <div className="quality-text">Traded Commodities</div>
-            </div>
-            <div className="col-lg-2">
-              <RenderEngagedFarmers />
-              <p className="quality-text">Engaged Farmers</p>
-            </div>
-          </MDBRow>
-        </MDBContainer>
-      </div>
-
-      <div
-        className="bg-white"
-        style={{
-          paddingTop: "150px",
-          paddingBottom: "150px",
-          borderBottomLeftRadius: "40px",
-          borderBottomRightRadius: "40px"
-        }}
-      >
-        <p className="goods-text">OUR GOODS</p>
-        <h1 className="product-header">PRODUCTS</h1>
-        <div className="container">
-          <div className="row justify-content-md-center">
-            {topProducts.map(product => (
-              <div className="col-md-4">
-                <img
-                  className="img-100"
-                  src={product.imageUrl}
-                  alt={product.name}
-                />
-                <h2 className="product-name">{product.name}</h2>
-                <p className="product-text">
-                  Harvest Season: {product.harvestSeason}
-                </p>
-                <p className="product-text">(Availabe all year)</p>
+      <MDBContainer fluid>
+        <div
+          className="bg-white flex-center"
+          style={{ borderTopLeftRadius: "40px", borderTopRightRadius: "40px" }}
+        >
+          <MDBContainer className="pt-5">
+            <MDBRow className="justify-content-lg-center">
+              <div className="col-lg-2">
+                <RenderContinents />
+                <p className="quality-text">Continents</p>
               </div>
-            ))}
-          </div>
-
-          <div className="row justify-content-md-center">
-            {bottomProducts.map(product => (
-              <div className="col-md-4 p-2">
-                <img
-                  className="img-100"
-                  src={product.imageUrl}
-                  alt={product.name}
-                />
-                <h2 className="product-name">{product.name}</h2>
-                <p className="product-text">
-                  Harvest Season: {product.harvestSeason}
-                </p>
-                <p className="product-text">(Availabe all year)</p>
+              <div className="col-lg-2">
+                <RenderWeps />
+                <p className="quality-text">Women Employed Per Shipment</p>
               </div>
-            ))}
+              <div className="col-lg-2">
+                <RenderTonsShipped />
+                <p className="quality-text">Tonnage Shipped</p>
+              </div>
+              <div className="col-lg-2">
+                <RenderTradedCommodities />
+                <div className="quality-text">Traded Commodities</div>
+              </div>
+              <div className="col-lg-2">
+                <RenderEngagedFarmers />
+                <p className="quality-text">Engaged Farmers</p>
+              </div>
+            </MDBRow>
+          </MDBContainer>
+        </div>
+        <div
+          className="bg-white"
+          style={{
+            paddingTop: "150px",
+            paddingBottom: "150px",
+            borderBottomLeftRadius: "40px",
+            borderBottomRightRadius: "40px"
+          }}
+        >
+          <p className="goods-text">OUR GOODS</p>
+          <h1 className="product-header">PRODUCTS</h1>
+          <div className="container">
+            <div className="row justify-content-md-center">
+              {topProducts.map(product => (
+                <div className="col-md-4">
+                  <img
+                    className="img-100"
+                    src={product.imageUrl}
+                    alt={product.name}
+                  />
+                  <h2 className="product-name">{product.name}</h2>
+                  <p className="product-text">
+                    Harvest Season: {product.harvestSeason}
+                  </p>
+                  <p className="product-text">(Availabe all year)</p>
+                </div>
+              ))}
+            </div>
+
+            <div className="row justify-content-md-center">
+              {bottomProducts.map(product => (
+                <div className="col-md-4 p-2">
+                  <img
+                    className="img-100"
+                    src={product.imageUrl}
+                    alt={product.name}
+                  />
+                  <h2 className="product-name">{product.name}</h2>
+                  <p className="product-text">
+                    Harvest Season: {product.harvestSeason}
+                  </p>
+                  <p className="product-text">(Availabe all year)</p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
-      </div>
+      </MDBContainer>
     </div>
   );
 };

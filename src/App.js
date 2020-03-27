@@ -32,14 +32,16 @@ const App = () => {
   };
 
   return (
-    <div className="App">
-      <header>
-        <MDBView src={cover} className="img">
+    <div className="App bg-img">
+      <MDBMask overlay="black-strong" className="white-text">
+        <header style={{ height: "100vh" }}>
           <Router>
             <MDBNavbar dark expand="md" className="z-depth-0">
               <MDBContainer>
                 <MDBNavbarBrand href="/">
-                  <strong className="text-shadow-1">TradingTons</strong>
+                  <strong className="text-shadow-1">
+                    Sourcing and produce Ltd.
+                  </strong>
                 </MDBNavbarBrand>
                 <MDBNavbarToggler onClick={handleClick} />
                 <MDBCollapse isOpen={isOpen} navbar>
@@ -56,57 +58,56 @@ const App = () => {
               </MDBContainer>
             </MDBNavbar>
           </Router>
-          <MDBMask
-            overlay="black-strong"
-            className="flex-center align-items-start flex-column white-text text-left"
-          >
-            <div className="container ">
-              <div className="col-lg-8 shadow">
-                <h2 className="header-font">
-                  DELIVERING AFRICAN AGRICULTURAL COMMODITIES TO THE WORLD
-                </h2>
-                <br />
-                <div className="button">ABOUT US</div>
-              </div>
-            </div>
-          </MDBMask>
-        </MDBView>
-      </header>
 
-      <div>
+          <div className="container text-left my-5">
+            <div
+              className="col-lg-9 flex-center align-items-start flex-column"
+              style={{ paddingTop: "150px", paddingBottom: "150px" }}
+            >
+              <h2 className="header-font">
+                DELIVERING AFRICAN AGRICULTURAL COMMODITIES TO THE WORLD
+              </h2>
+              <br />
+              <div className="button">ABOUT US</div>
+            </div>
+          </div>
+        </header>
+
+        <div>
+          <div
+            data-spy="scroll"
+            data-target="#About"
+            className="scrollspy-example"
+            data-offset="0"
+          >
+            <About id="About" />
+          </div>
+          <div
+            data-spy="scroll"
+            data-target="#Products"
+            className="scrollspy-example"
+            data-offset="0"
+          >
+            <Product id="Products" />
+          </div>
+        </div>
         <div
-          dataSpy="scroll"
-          dataTarget="#About"
+          data-spy="scroll"
+          data-target="#Team"
           className="scrollspy-example"
           data-offset="0"
         >
-          <About id="About" />
+          <Team id="Team" />
         </div>
         <div
-          dataSpy="scroll"
-          dataTarget="#Products"
+          data-spy="scroll"
+          data-target="#Contact"
           className="scrollspy-example"
           data-offset="0"
         >
-          <Product id="Products" />
+          <Contact id="Contact" />
         </div>
-      </div>
-      <div
-        data-spy="scroll"
-        data-target="#Team"
-        className="scrollspy-example"
-        data-offset="0"
-      >
-        <Team id="Team" />
-      </div>
-      <div
-        data-spy="scroll"
-        data-target="#Contact"
-        className="scrollspy-example"
-        data-offset="0"
-      >
-        <Contact id="Contact" />
-      </div>
+      </MDBMask>
     </div>
   );
 };
