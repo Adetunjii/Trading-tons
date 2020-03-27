@@ -125,7 +125,7 @@ class Team extends Component {
                         style={{
                           maxWidth: "200px",
                           maxHeight: "200px",
-                          transform: "translateY(-80px)",
+                          transform: "translateY(-65px)",
                           border: "2px solid rgba(74, 255, 24, 0.233)"
                         }}
                         src={team.imageUrl}
