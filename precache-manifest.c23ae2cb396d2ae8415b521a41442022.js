@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bec572bf288ed5ee2dbe7de7b5d0464c",
+    "revision": "2a4eac54061d0109bd67a88b3e6bfeff",
     "url": "/Trading-tons/index.html"
   },
   {
-    "revision": "ddc8029f8d9133bbea36",
+    "revision": "1e63c1afde614547554e",
     "url": "/Trading-tons/static/css/2.8927d26c.chunk.css"
   },
   {
-    "revision": "405908cca879155ede4e",
-    "url": "/Trading-tons/static/css/main.245b5450.chunk.css"
+    "revision": "32c3ee03c1a068d4c74e",
+    "url": "/Trading-tons/static/css/main.8d263e90.chunk.css"
   },
   {
-    "revision": "ddc8029f8d9133bbea36",
-    "url": "/Trading-tons/static/js/2.2d672c7a.chunk.js"
+    "revision": "1e63c1afde614547554e",
+    "url": "/Trading-tons/static/js/2.ebe5fa02.chunk.js"
   },
   {
     "revision": "df8be702f0cc9d299c0ff42ca03d3e40",
-    "url": "/Trading-tons/static/js/2.2d672c7a.chunk.js.LICENSE.txt"
+    "url": "/Trading-tons/static/js/2.ebe5fa02.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "405908cca879155ede4e",
-    "url": "/Trading-tons/static/js/main.a57ffa72.chunk.js"
+    "revision": "32c3ee03c1a068d4c74e",
+    "url": "/Trading-tons/static/js/main.c469101c.chunk.js"
   },
   {
     "revision": "5ce9e534995b0d6a78cc",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Trading-tons/static/media/Cobus.80881d9c.jpg"
   },
   {
-    "revision": "942c85b26e57afe91202255a74f3a4af",
-    "url": "/Trading-tons/static/media/arabic_gum.942c85b2.jpg"
+    "revision": "a2810f001f231de89b4e804f35db9b8a",
+    "url": "/Trading-tons/static/media/arabic_gum.a2810f00.jpg"
   },
   {
     "revision": "11911410dca2de148f30954eb2fd5eab",
@@ -42,6 +42,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8ef6a08cdc1154920165680a4edde771",
     "url": "/Trading-tons/static/media/arrow_right.8ef6a08c.svg"
+  },
+  {
+    "revision": "1fb975951d69970696486c0ec3d1376f",
+    "url": "/Trading-tons/static/media/birdeyechill.1fb97595.jpg"
+  },
+  {
+    "revision": "2dd37c2ed87889fde17fd97049415eca",
+    "url": "/Trading-tons/static/media/cashewNuts.2dd37c2e.jpg"
   },
   {
     "revision": "55acc26572ca1f3ddcc3fbb8e8cfaf0f",
@@ -142,6 +150,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f4d075fb230de24cbbe5e7b948a7cd79",
     "url": "/Trading-tons/static/media/quality.f4d075fb.png"
+  },
+  {
+    "revision": "92851097b6cb75b19fc50b7ab52d6bfd",
+    "url": "/Trading-tons/static/media/sesame.92851097.jpg"
+  },
+  {
+    "revision": "b927ff4a2acab87343d4131f033da0f3",
+    "url": "/Trading-tons/static/media/tigernuts.b927ff4a.jpg"
   },
   {
     "revision": "c3c0240791eddad734b7b6410bef070a",
