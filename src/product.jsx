@@ -6,6 +6,9 @@ import * as turmeric from "./assets/tumeric.jpg";
 import * as arabic_gum from "./assets/arabic_gum.jpg";
 import * as birdeyechili from "./assets/birdeyechill.jpg";
 import * as peanuts from "./assets/peanuts.jpg";
+import * as sesameSeeds from "./assets/sesame.jpg";
+import * as tigernuts from "./assets/tigernuts.jpg";
+import * as cashewNuts from "./assets/cashewNuts.jpg";
 import { MDBRow, MDBContainer } from "mdbreact";
 
 const Product = props => {
@@ -122,15 +125,16 @@ const Product = props => {
 
   const topProducts = [
     {
-      name: "Dry Ginger",
-      imageUrl: dry_ginger,
-      harvestSeason: "November to Jan"
+      name: "Cashew Nut",
+      imageUrl: cashewNuts,
+      harvestSeason: "February to May",
+      available: "Available Feb to May"
     },
 
     {
-      name: "Hibiscus",
-      imageUrl: hibiscus,
-      harvestSeason: "November to Jan"
+      name: "Sesame Seeds",
+      imageUrl: sesameSeeds,
+      harvestSeason: "November to July"
     },
     {
       name: "Turmeric",
@@ -155,6 +159,22 @@ const Product = props => {
       name: "Peanuts",
       imageUrl: peanuts,
       harvestSeason: "March to Aug"
+    },
+    {
+      name: "Dry Ginger",
+      imageUrl: dry_ginger,
+      harvestSeason: "November to Jan"
+    },
+
+    {
+      name: "Hibiscus",
+      imageUrl: hibiscus,
+      harvestSeason: "November to Jan"
+    },
+    {
+      name: "Tigernuts",
+      imageUrl: tigernuts,
+      harvestSeason: "April to November"
     }
   ];
 
@@ -214,7 +234,11 @@ const Product = props => {
                   <p className="product-text">
                     Harvest Season: {product.harvestSeason}
                   </p>
-                  <p className="product-text">(Availabe all year)</p>
+                  <p className="product-text">
+                    {product.available
+                      ? product.available
+                      : "Available all year"}
+                  </p>
                 </div>
               ))}
             </div>
@@ -231,7 +255,11 @@ const Product = props => {
                   <p className="product-text">
                     Harvest Season: {product.harvestSeason}
                   </p>
-                  <p className="product-text">(Availabe all year)</p>
+                  <p className="product-text">
+                    {product.available
+                      ? product.available
+                      : "Available all year"}
+                  </p>
                 </div>
               ))}
             </div>

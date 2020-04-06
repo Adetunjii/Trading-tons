@@ -102,13 +102,29 @@ const Contact = props => {
               </div>
 
               <div className="row">
-                <h2 className="contact-header">Nigerian Office</h2>
+                <h2 className="contact-header">Address:</h2>
               </div>
               <div className="text-left row team-text">
                 <p>
                   87 Allen Avenue, Ikeja Lagos State, Nigeria. <br />
                   +234 8146132690 (8am to 5pm Weekdays)
+                  <br />
+                  Email:
+                  <span>
+                    <a href="mailto:business@sourcingandproduce.com">
+                      business@sourcingandproduce.com
+                    </a>
+                  </span>
+                  <br />
+                  <p>
+                    Instagram:{" "}
+                    <a href="http://instagram.com/"> Sourcingandproduce</a>
+                    <br />
+                    Youtube:
+                    <a href="http://youtube.com/"> Sourcingandproduce</a>
+                  </p>
                 </p>
+                <p></p>
               </div>
             </div>
           </div>
