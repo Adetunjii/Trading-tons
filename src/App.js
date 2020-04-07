@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import About from "./about";
 import Product from "./product";
@@ -18,7 +18,6 @@ import {
   MDBCollapse,
   MDBNavbarNav,
   MDBNavItem,
-  MDBRow,
   MDBNavLink,
   MDBMask,
   MDBNavbarToggler,
@@ -30,117 +29,6 @@ const App = () => {
 
   const handleClick = () => {
     setIsOpen(!isOpen);
-  };
-
-  const RenderContinents = (props) => {
-    const [continents, setContinents] = useState(1);
-
-    useEffect(() => {
-      getContinents();
-    }, []);
-
-    const doSetTimeout = (i) => {
-      setTimeout(function () {
-        setContinents(i);
-        console.log(i);
-      }, i * 300);
-    };
-
-    const getContinents = () => {
-      for (var counter = 1; counter < 6; counter++) {
-        doSetTimeout(counter);
-      }
-    };
-
-    return <h2 className="counter-text">{continents}</h2>;
-  };
-
-  const RenderWeps = () => {
-    const [weps, setWeps] = useState(1);
-
-    useEffect(() => {
-      getWeps();
-    }, []);
-
-    const doTimeout = (i) => {
-      setTimeout(() => {
-        setWeps(i);
-      }, i * 20);
-    };
-
-    const getWeps = () => {
-      for (var i = 1; i < 86; i++) {
-        doTimeout(i);
-      }
-    };
-
-    return <h2 className="counter-text">{weps}+</h2>;
-  };
-
-  const RenderTonsShipped = () => {
-    const [tonsShipped, setTonsShipped] = useState(1);
-
-    useEffect(() => {
-      getTonsShipped();
-    }, []);
-
-    const doTimeout = (i) => {
-      setTimeout(() => {
-        setTonsShipped(i);
-      }, i * 2);
-    };
-
-    const getTonsShipped = () => {
-      for (let counter = 1; counter < 1001; counter++) {
-        doTimeout(counter);
-      }
-    };
-
-    return <h2 className="counter-text">{tonsShipped}+</h2>;
-  };
-
-  const RenderTradedCommodities = () => {
-    const [tradedCommodities, setTradedCommodities] = useState(1);
-
-    useEffect(() => {
-      getTradedCommodities();
-    }, []);
-
-    const doTimeout = (i) => {
-      setTimeout(() => {
-        setTradedCommodities(i);
-      }, i * 200);
-    };
-
-    const getTradedCommodities = () => {
-      for (let counter = 1; counter < 9; counter++) {
-        doTimeout(counter);
-      }
-    };
-
-    return <h2 className="counter-text">{tradedCommodities}+</h2>;
-  };
-
-  const RenderEngagedFarmers = () => {
-    const [engagedFarmers, setEngagedFarmers] = useState(1);
-
-    useEffect(() => {
-      getEngagedFarmers();
-    }, []);
-
-    const doTimeout = (i) => {
-      setTimeout(() => {
-        setEngagedFarmers(i);
-      }, i * 1);
-    };
-
-    const getEngagedFarmers = () => {
-      for (let counter = 1; counter < 2301; counter++) {
-        doTimeout(counter);
-      }
-    };
-
-    return <h2 className="counter-text">{engagedFarmers}+</h2>;
   };
 
   return (
@@ -174,7 +62,7 @@ const App = () => {
             <div className="container text-left my-5">
               <div
                 className="col-lg-9 flex-center align-items-start flex-column"
-                style={{ paddingTop: "100px", paddingBottom: "100px" }}
+                style={{ paddingTop: "150px", paddingBottom: "150px" }}
               >
                 <h2 className="header-font">
                   DELIVERING AFRICAN AGRICULTURAL COMMODITIES TO THE WORLD
@@ -182,30 +70,6 @@ const App = () => {
                 <br />
                 <div className="button">ABOUT US</div>
               </div>
-              <MDBContainer className="">
-                <MDBRow className="justify-content-sm-center">
-                  <div className="col-sm-2">
-                    <RenderContinents />
-                    <p className="quality-text">Continents</p>
-                  </div>
-                  <div className="col-sm-2">
-                    <RenderWeps />
-                    <p className="quality-text">Women Employed Per Shipment</p>
-                  </div>
-                  <div className="col-sm-2">
-                    <RenderTonsShipped />
-                    <p className="quality-text">Tonnage Shipped</p>
-                  </div>
-                  <div className="col-sm-2 px-5">
-                    <RenderTradedCommodities />
-                    <div className="quality-text">Traded Commodities</div>
-                  </div>
-                  <div className="col-sm-2 px-5">
-                    <RenderEngagedFarmers />
-                    <p className="quality-text">Engaged Farmers</p>
-                  </div>
-                </MDBRow>
-              </MDBContainer>
             </div>
           </MDBMask>
         </MDBView>
