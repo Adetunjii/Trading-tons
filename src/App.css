@@ -11,13 +11,6 @@
   margin-top: 100px;
 }
 
-.bg-img {
-  background: url("./assets/cover.jpg")no-repeat center center fixed;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-}
 
 .img {
   height: 50vh;

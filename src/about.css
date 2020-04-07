@@ -2,17 +2,17 @@
     font-family: 'Palanquin', sans-serif;
     font-weight: 900;
     font-size: 50px;
-    color: rgba(238, 238, 238, 0.938);
+    color: grey;
 }
 
 .about-text {
     font-family: 'Palanquin', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: 500;
+    font-size: 18px;
     line-height: 1.9;
     letter-spacing: 0.9px;
     font-style: normal;
-    color: rgb(212, 212, 212);
+    color: rgb(143, 143, 143);
 }
 
 .quality-header {
