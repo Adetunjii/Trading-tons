@@ -51,7 +51,7 @@ const App = () => {
       }
     };
 
-    return <h2 className=" h2-responsive counter-text">{continents}</h2>;
+    return <h2 className="counter-text">{continents}</h2>;
   };
 
   const RenderWeps = () => {
@@ -73,7 +73,7 @@ const App = () => {
       }
     };
 
-    return <h2 className=" h2-responsive counter-text">{weps}+</h2>;
+    return <h2 className="counter-text">{weps}+</h2>;
   };
 
   const RenderTonsShipped = () => {
@@ -95,7 +95,7 @@ const App = () => {
       }
     };
 
-    return <h2 className=" h2-responsive counter-text">{tonsShipped}+</h2>;
+    return <h2 className="counter-text">{tonsShipped}+</h2>;
   };
 
   const RenderTradedCommodities = () => {
@@ -117,9 +117,7 @@ const App = () => {
       }
     };
 
-    return (
-      <h2 className=" h2-responsive counter-text">{tradedCommodities}+</h2>
-    );
+    return <h2 className="counter-text">{tradedCommodities}+</h2>;
   };
 
   const RenderEngagedFarmers = () => {
@@ -141,7 +139,7 @@ const App = () => {
       }
     };
 
-    return <h2 className=" h2-responsive counter-text">{engagedFarmers}+</h2>;
+    return <h2 className="counter-text">{engagedFarmers}+</h2>;
   };
 
   return (
@@ -173,41 +171,37 @@ const App = () => {
           </Router>
           <MDBMask overlay="black-strong" className="white-text">
             <div className="container text-left my-5">
-              <div className="col-lg-9 flex-center align-items-start flex-column extra-padding">
-                <h2 className="header-font h2-responsive">
+              <div className="col-lg-9 flex-center align-items-start flex-column padding-top">
+                <h2 className="header-font">
                   DELIVERING AFRICAN AGRICULTURAL COMMODITIES TO THE WORLD
                 </h2>
                 <br />
                 <div className="button">ABOUT US</div>
               </div>
 
-              <div>
-                <MDBContainer fluid className="pt-5">
-                  <MDBRow className="justify-content-lg-center">
-                    <div className="col-2 px-5">
-                      <RenderContinents />
-                      <p className="quality-text">Continents</p>
-                    </div>
-                    <div className="col-2 px-5">
-                      <RenderWeps />
-                      <p className="quality-text">
-                        Women Employed Per Shipment
-                      </p>
-                    </div>
-                    <div className="col-2 px-5">
-                      <RenderTonsShipped />
-                      <p className="quality-text">Tonnage Shipped</p>
-                    </div>
-                    <div className="col-2 px-5 text-center">
-                      <RenderTradedCommodities />
-                      <div className="quality-text">Traded Commodities</div>
-                    </div>
-                    <div className="col-2 px-5">
-                      <RenderEngagedFarmers />
-                      <p className="quality-text">Engaged Farmers</p>
-                    </div>
-                  </MDBRow>
-                </MDBContainer>
+              <div className="padding-top">
+                <MDBRow className="justify-content-lg-center">
+                  <div className="col-2 px-5">
+                    <RenderContinents />
+                    <p className="quality-text">Continents</p>
+                  </div>
+                  <div className="col-2 px-5">
+                    <RenderWeps />
+                    <p className="quality-text">Women Employed Per Shipment</p>
+                  </div>
+                  <div className="col-2 px-5">
+                    <RenderTonsShipped />
+                    <p className="quality-text">Tonnage Shipped</p>
+                  </div>
+                  <div className="col-2 px-5 text-center">
+                    <RenderTradedCommodities />
+                    <div className="quality-text">Traded Commodities</div>
+                  </div>
+                  <div className="col-2 px-5">
+                    <RenderEngagedFarmers />
+                    <p className="quality-text">Engaged Farmers</p>
+                  </div>
+                </MDBRow>
               </div>
             </div>
           </MDBMask>

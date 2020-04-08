@@ -10,9 +10,8 @@
   margin-top: 100px;
 }
 
-.extra-padding {
+.padding-top {
   padding-top: 95px;
-  padding-bottom: 90px;
 }
 
 .img {
@@ -79,14 +78,13 @@
     font-weight: bold;
   }
 
-  .extra-padding {
-    padding-top: 35px;
-    padding-bottom: 30px;
+  .padding-top {
+    padding-top: 90px;
   }
 
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
   .navbar {
     background-color: rgba(0, 0, 0, 0.774);
   }
@@ -107,9 +105,8 @@
     font-weight: bold;
   }
 
-  .extra-padding {
+  .padding-top {
     padding-top: 25px;
-    padding-bottom: 20px;
   }
 
   .quality-text {
