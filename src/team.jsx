@@ -1,11 +1,7 @@
 import React, { Component } from "react";
 import * as lanre from "./assets/LanreAwojoodu.jpg";
 import * as charles from "./assets/charles.png";
-import * as florian from "./assets/florian.jpg";
-import * as cobus from "./assets/Cobus.jpg";
-import * as erik from "./assets/erik.png";
-import * as tunde from "./assets/tunde.jpg";
-
+import * as folabi from "./assets/folabi.jpg";
 import {
   MDBRow,
   MDBCard,
@@ -63,7 +59,7 @@ class Team extends Component {
 
       {
         name: "Folabi Esan",
-        imageUrl: null,
+        imageUrl: folabi,
         position: "Director",
       },
     ];
