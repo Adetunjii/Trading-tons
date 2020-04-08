@@ -53,7 +53,7 @@
 .counter-text {
     font-family: 'Palanquin', sans-serif;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 50px;
     line-height: 2;
     letter-spacing: 3px;
     color: rgb(48, 179, 9);
@@ -62,9 +62,9 @@
 @media only screen and (max-width: 768px) {
     .counter-text {
         font-family: 'Palanquin', sans-serif;
-        font-weight: bold;
-        font-size: 40px;
-        line-height: 2;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 1;
         letter-spacing: 2px;
         color: rgb(48, 179, 9);
     }
@@ -76,6 +76,16 @@
         line-height: 2;
         letter-spacing: 1px;
         color: rgb(126, 123, 123);
+    }
+
+    .quality-text {
+        font-family: 'Palanquin', sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 14px;
+        letter-spacing: 1px;
+        line-height: 1.2;
+        color: rgb(202, 201, 201);
     }
 }
 

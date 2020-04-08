@@ -2,7 +2,7 @@ import React from "react";
 import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBIcon } from "mdbreact";
 import "./contact.css";
 
-const Contact = props => {
+const Contact = (props) => {
   return (
     <div className="bg-white py-5" id={props.id}>
       <div className="container">
@@ -116,13 +116,13 @@ const Contact = props => {
                     </a>
                   </span>
                   <br />
-                  <p>
-                    Instagram:{" "}
-                    <a href="http://instagram.com/"> Sourcingandproduce</a>
-                    <br />
-                    Youtube:
-                    <a href="http://youtube.com/"> Sourcingandproduce</a>
-                  </p>
+                </p>
+                <p>
+                  Instagram:{" "}
+                  <a href="http://instagram.com/"> Sourcingandproduce</a>
+                  <br />
+                  Youtube:
+                  <a href="http://youtube.com/"> Sourcingandproduce</a>
                 </p>
                 <p></p>
               </div>

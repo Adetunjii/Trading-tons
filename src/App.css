@@ -3,7 +3,6 @@
 
 .App {
   text-align: center;
-  background-image: "./assets/cover.jpg";
   min-height: 100%;
 }
 
@@ -11,9 +10,13 @@
   margin-top: 100px;
 }
 
+.extra-padding {
+  padding-top: 95px;
+  padding-bottom: 90px;
+}
 
 .img {
-  height: 50vh;
+  width: 100% auto
 }
 
 .header-font {
@@ -62,7 +65,7 @@
 
   .text-shadow-1 {
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 18px;
     text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
 
   }
@@ -75,6 +78,49 @@
     font-style: normal;
     font-weight: bold;
   }
+
+  .extra-padding {
+    padding-top: 35px;
+    padding-bottom: 30px;
+  }
+
+}
+
+@media only screen and (max-width: 320px) {
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.774);
+  }
+
+  .text-shadow-1 {
+    color: #FFFFFF;
+    font-size: 18px;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+
+  }
+
+  .header-font {
+    font-family: 'Palanquin', sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    letter-spacing: 0.5;
+    font-style: normal;
+    font-weight: bold;
+  }
+
+  .extra-padding {
+    padding-top: 25px;
+    padding-bottom: 20px;
+  }
+
+  .quality-text {
+    font-family: 'Palanquin', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 1;
+    color: rgb(202, 201, 201);
+  }
+
 
 }
 
