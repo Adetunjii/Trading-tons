@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Trading-tons/static/css/main.8d263e90.chunk.css",
-    "main.js": "/Trading-tons/static/js/main.c469101c.chunk.js",
-    "main.js.map": "/Trading-tons/static/js/main.c469101c.chunk.js.map",
+    "main.css": "/Trading-tons/static/css/main.7920912a.chunk.css",
+    "main.js": "/Trading-tons/static/js/main.3547657c.chunk.js",
+    "main.js.map": "/Trading-tons/static/js/main.3547657c.chunk.js.map",
     "runtime-main.js": "/Trading-tons/static/js/runtime-main.f44c3862.js",
     "runtime-main.js.map": "/Trading-tons/static/js/runtime-main.f44c3862.js.map",
     "static/css/2.8927d26c.chunk.css": "/Trading-tons/static/css/2.8927d26c.chunk.css",
-    "static/js/2.ebe5fa02.chunk.js": "/Trading-tons/static/js/2.ebe5fa02.chunk.js",
-    "static/js/2.ebe5fa02.chunk.js.map": "/Trading-tons/static/js/2.ebe5fa02.chunk.js.map",
+    "static/js/2.ded16097.chunk.js": "/Trading-tons/static/js/2.ded16097.chunk.js",
+    "static/js/2.ded16097.chunk.js.map": "/Trading-tons/static/js/2.ded16097.chunk.js.map",
     "index.html": "/Trading-tons/index.html",
-    "precache-manifest.c23ae2cb396d2ae8415b521a41442022.js": "/Trading-tons/precache-manifest.c23ae2cb396d2ae8415b521a41442022.js",
+    "precache-manifest.65a56f162894b25ce9df49802ed9bad1.js": "/Trading-tons/precache-manifest.65a56f162894b25ce9df49802ed9bad1.js",
     "service-worker.js": "/Trading-tons/service-worker.js",
     "static/css/2.8927d26c.chunk.css.map": "/Trading-tons/static/css/2.8927d26c.chunk.css.map",
-    "static/css/main.8d263e90.chunk.css.map": "/Trading-tons/static/css/main.8d263e90.chunk.css.map",
-    "static/js/2.ebe5fa02.chunk.js.LICENSE.txt": "/Trading-tons/static/js/2.ebe5fa02.chunk.js.LICENSE.txt",
+    "static/css/main.7920912a.chunk.css.map": "/Trading-tons/static/css/main.7920912a.chunk.css.map",
+    "static/js/2.ded16097.chunk.js.LICENSE.txt": "/Trading-tons/static/js/2.ded16097.chunk.js.LICENSE.txt",
     "static/media/Cobus.jpg": "/Trading-tons/static/media/Cobus.80881d9c.jpg",
     "static/media/arabic_gum.jpg": "/Trading-tons/static/media/arabic_gum.a2810f00.jpg",
     "static/media/mdb.css": "/Trading-tons/static/media/arrow_right.8ef6a08c.svg",
     "static/media/birdeyechill.jpg": "/Trading-tons/static/media/birdeyechill.1fb97595.jpg",
     "static/media/cashewNuts.jpg": "/Trading-tons/static/media/cashewNuts.2dd37c2e.jpg",
     "static/media/charles.png": "/Trading-tons/static/media/charles.55acc265.png",
-    "static/media/App.css": "/Trading-tons/static/media/cover.d2ccacf9.jpg",
+    "static/media/cover.jpg": "/Trading-tons/static/media/cover.d2ccacf9.jpg",
     "static/media/download.png": "/Trading-tons/static/media/download.ae0f94f8.png",
     "static/media/dry_ginger.jpg": "/Trading-tons/static/media/dry_ginger.4f54044d.jpg",
     "static/media/erik.png": "/Trading-tons/static/media/erik.d12253b2.png",
@@ -38,8 +38,8 @@
   "entrypoints": [
     "static/js/runtime-main.f44c3862.js",
     "static/css/2.8927d26c.chunk.css",
-    "static/js/2.ebe5fa02.chunk.js",
-    "static/css/main.8d263e90.chunk.css",
-    "static/js/main.c469101c.chunk.js"
+    "static/js/2.ded16097.chunk.js",
+    "static/css/main.7920912a.chunk.css",
+    "static/js/main.3547657c.chunk.js"
   ]
 }
