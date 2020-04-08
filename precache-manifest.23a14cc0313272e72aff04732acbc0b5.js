@@ -1,35 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "77cbd23782965e6e7e3ebd1bea551ed3",
+    "revision": "4ec93d40839e91e8c28bb55d5b38abaf",
     "url": "/Trading-tons/index.html"
   },
   {
-    "revision": "9a518de27bb08d2d53dc",
+    "revision": "39ac25cf0c3c6f976f2b",
     "url": "/Trading-tons/static/css/2.8927d26c.chunk.css"
   },
   {
-    "revision": "c46bfdbf7d73cba040af",
-    "url": "/Trading-tons/static/css/main.7920912a.chunk.css"
+    "revision": "c3125d8ab04f191f7de5",
+    "url": "/Trading-tons/static/css/main.42459582.chunk.css"
   },
   {
-    "revision": "9a518de27bb08d2d53dc",
-    "url": "/Trading-tons/static/js/2.ded16097.chunk.js"
+    "revision": "39ac25cf0c3c6f976f2b",
+    "url": "/Trading-tons/static/js/2.ecf0b99b.chunk.js"
   },
   {
     "revision": "df8be702f0cc9d299c0ff42ca03d3e40",
-    "url": "/Trading-tons/static/js/2.ded16097.chunk.js.LICENSE.txt"
+    "url": "/Trading-tons/static/js/2.ecf0b99b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c46bfdbf7d73cba040af",
-    "url": "/Trading-tons/static/js/main.3547657c.chunk.js"
+    "revision": "c3125d8ab04f191f7de5",
+    "url": "/Trading-tons/static/js/main.6d9cc38f.chunk.js"
   },
   {
     "revision": "5ce9e534995b0d6a78cc",
     "url": "/Trading-tons/static/js/runtime-main.f44c3862.js"
-  },
-  {
-    "revision": "80881d9cf957778b5a8e4dbf46c449bd",
-    "url": "/Trading-tons/static/media/Cobus.80881d9c.jpg"
   },
   {
     "revision": "a2810f001f231de89b4e804f35db9b8a",
@@ -66,10 +62,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4f54044dff4d5fa800a277477b98374b",
     "url": "/Trading-tons/static/media/dry_ginger.4f54044d.jpg"
-  },
-  {
-    "revision": "d12253b2287922201ba5170d9f7bbb6e",
-    "url": "/Trading-tons/static/media/erik.d12253b2.png"
   },
   {
     "revision": "067595ad77ecc0db9c81c8905a7eef32",
@@ -132,8 +124,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Trading-tons/static/media/fa-solid-900.cdfec5cf.woff"
   },
   {
-    "revision": "ec22c6294d40d088369f8b172940acc9",
-    "url": "/Trading-tons/static/media/florian.ec22c629.jpg"
+    "revision": "2e974a045d0901db10b8a476fe047b2d",
+    "url": "/Trading-tons/static/media/folabi.2e974a04.jpg"
   },
   {
     "revision": "f2dd1ffaa128275620d44c9c2728b4de",
@@ -162,9 +154,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c3c0240791eddad734b7b6410bef070a",
     "url": "/Trading-tons/static/media/tumeric.c3c02407.jpg"
-  },
-  {
-    "revision": "fd65cccb29d71c624b78aad02a558286",
-    "url": "/Trading-tons/static/media/tunde.fd65cccb.jpg"
   }
 ]);
