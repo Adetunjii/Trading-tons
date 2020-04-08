@@ -68,6 +68,15 @@
         letter-spacing: 2px;
         color: rgb(48, 179, 9);
     }
+
+    .quality-header {
+        font-family: 'Palanquin', sans-serif;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 2;
+        letter-spacing: 1px;
+        color: rgb(126, 123, 123);
+    }
 }
 
 .counter-container {
