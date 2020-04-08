@@ -60,6 +60,12 @@ class Team extends Component {
           "Charles is on our board and has extensive experience in commodity contracting and sales, corporate partnership development, and guiding the company’s expansion into new markets. He has a background in finance, real estate, agriculture, and natural resource development. He is Director at Earth Partners, He is also on the board of Drylands Natural Resource Centre, an agro-forestry and environmental organization in Kenya. Charles previously consulted for the Bill & Melinda Gates Foundation within their agricultural development group, where he worked on input supply chain development and financing issues. Charles has previously worked for Bank of America Merrill Lynch in New York and McKinsey & Company. Chas is American, a graduate of the University of Virginia, he tries to spend as much time as possible on his farm in Rapidan, Virginia. Chas effectively promotes Trading Tons in the American markets.",
         position: "Director",
       },
+
+      {
+        name: "Folabi Esan",
+        imageUrl: null,
+        position: "Director",
+      },
     ];
 
     return (
@@ -69,7 +75,7 @@ class Team extends Component {
           <h1 className="about-header py-3">OUR TEAM</h1>
           <MDBRow className="my-3 mx-md-n5 py-5">
             {team.map((team) => (
-              <div className="col-md-6 my-4">
+              <div className="col-md-4 my-4">
                 <div className="box">
                   <div className="my-card">
                     <div className="imgBx">
