@@ -195,7 +195,7 @@ const App = () => {
                   <MDBRow>
                     <div className="col-2 px-5">
                       <RenderContinents />
-                      <p className="quality-text">Continents</p>
+                      <p className="quality-text">Continents Shipped To</p>
                     </div>
                     <div className="col-2 px-5">
                       <RenderWeps />
