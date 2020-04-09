@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Trading-tons/static/css/main.2b82db71.chunk.css",
-    "main.js": "/Trading-tons/static/js/main.9bf286b9.chunk.js",
-    "main.js.map": "/Trading-tons/static/js/main.9bf286b9.chunk.js.map",
+    "main.css": "/Trading-tons/static/css/main.0ddd7570.chunk.css",
+    "main.js": "/Trading-tons/static/js/main.37abd548.chunk.js",
+    "main.js.map": "/Trading-tons/static/js/main.37abd548.chunk.js.map",
     "runtime-main.js": "/Trading-tons/static/js/runtime-main.f44c3862.js",
     "runtime-main.js.map": "/Trading-tons/static/js/runtime-main.f44c3862.js.map",
     "static/css/2.0bcd10d5.chunk.css": "/Trading-tons/static/css/2.0bcd10d5.chunk.css",
-    "static/js/2.90c2f2cf.chunk.js": "/Trading-tons/static/js/2.90c2f2cf.chunk.js",
-    "static/js/2.90c2f2cf.chunk.js.map": "/Trading-tons/static/js/2.90c2f2cf.chunk.js.map",
+    "static/js/2.f89b79e1.chunk.js": "/Trading-tons/static/js/2.f89b79e1.chunk.js",
+    "static/js/2.f89b79e1.chunk.js.map": "/Trading-tons/static/js/2.f89b79e1.chunk.js.map",
     "index.html": "/Trading-tons/index.html",
-    "precache-manifest.36eedd9d5c1f66d09244f577ab423fb9.js": "/Trading-tons/precache-manifest.36eedd9d5c1f66d09244f577ab423fb9.js",
+    "precache-manifest.9478aa194435f77b9083218ceae7afd4.js": "/Trading-tons/precache-manifest.9478aa194435f77b9083218ceae7afd4.js",
     "service-worker.js": "/Trading-tons/service-worker.js",
     "static/css/2.0bcd10d5.chunk.css.map": "/Trading-tons/static/css/2.0bcd10d5.chunk.css.map",
-    "static/css/main.2b82db71.chunk.css.map": "/Trading-tons/static/css/main.2b82db71.chunk.css.map",
-    "static/js/2.90c2f2cf.chunk.js.LICENSE.txt": "/Trading-tons/static/js/2.90c2f2cf.chunk.js.LICENSE.txt",
+    "static/css/main.0ddd7570.chunk.css.map": "/Trading-tons/static/css/main.0ddd7570.chunk.css.map",
+    "static/js/2.f89b79e1.chunk.js.LICENSE.txt": "/Trading-tons/static/js/2.f89b79e1.chunk.js.LICENSE.txt",
     "static/media/arabic_gum.jpg": "/Trading-tons/static/media/arabic_gum.a2810f00.jpg",
     "static/media/mdb.css": "/Trading-tons/static/media/arrow_right.8ef6a08c.svg",
     "static/media/birdeyechill.jpg": "/Trading-tons/static/media/birdeyechill.1fb97595.jpg",
@@ -35,8 +35,8 @@
   "entrypoints": [
     "static/js/runtime-main.f44c3862.js",
     "static/css/2.0bcd10d5.chunk.css",
-    "static/js/2.90c2f2cf.chunk.js",
-    "static/css/main.2b82db71.chunk.css",
-    "static/js/main.9bf286b9.chunk.js"
+    "static/js/2.f89b79e1.chunk.js",
+    "static/css/main.0ddd7570.chunk.css",
+    "static/js/main.37abd548.chunk.js"
   ]
 }
