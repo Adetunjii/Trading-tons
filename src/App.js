@@ -24,7 +24,7 @@ import {
 } from "mdbreact";
 
 const App = () => {
-  const routes = ["Home", "About", "Products", "Team", "Contact"];
+  const routes = ["Home", "About", "Products", "Contact"];
   const [isOpen, setIsOpen] = useState(false);
 
   const handleClick = () => {
@@ -150,9 +150,7 @@ const App = () => {
             <MDBNavbar dark expand="lg" className="z-depth-0">
               <MDBContainer>
                 <MDBNavbarBrand href="/">
-                  <strong className="text-shadow-1">
-                    Sourcing and produce Ltd.
-                  </strong>
+                  <strong className="text-shadow-1">SOURCING & PRODUCE</strong>
                 </MDBNavbarBrand>
                 <MDBNavbarToggler onClick={handleClick} />
                 <MDBCollapse isOpen={isOpen} navbar>
@@ -226,14 +224,14 @@ const App = () => {
           <Product id="Products" />
         </div>
       </div>
-      <div
+      {/* <div
         data-spy="scroll"
         data-target="#Team"
         className="scrollspy-example"
         data-offset="0"
       >
         <Team id="Team" />
-      </div>
+      </div> */}
       <div
         data-spy="scroll"
         data-target="#Contact"

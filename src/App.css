@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Palanquin&display=swap');
-
+@import url("https://fonts.googleapis.com/css?family=Palanquin&display=swap");
 
 .App {
   text-align: center;
@@ -15,11 +14,11 @@
 }
 
 .img {
-  width: 100% auto
+  width: 100% auto;
 }
 
 .header-font {
-  font-family: 'Palanquin', sans-serif;
+  font-family: "Palanquin", sans-serif;
   font-size: 52px;
   padding: 10px;
   letter-spacing: 0.5;
@@ -28,7 +27,7 @@
 }
 
 .nav-link {
-  font-family: 'Palanquin', sans-serif;
+  font-family: "Palanquin", sans-serif;
   font-size: 18px;
   padding: 10px;
   letter-spacing: 1.8px;
@@ -38,14 +37,17 @@
 }
 
 .text-shadow-1 {
-  color: #FFFFFF;
+  color: #00df25;
   font-size: 40px;
-  text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
 }
 
 .text-shadow-2 {
-  color: #FFFFFF;
-  text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+  color: #ffffff;
+  text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(0, 0, 0, 0.15);
 }
 
 .navbar {
@@ -63,14 +65,12 @@
   }
 
   .text-shadow-1 {
-    color: #FFFFFF;
+    color: #00df25;
     font-size: 18px;
-    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
-
   }
 
   .header-font {
-    font-family: 'Palanquin', sans-serif;
+    font-family: "Palanquin", sans-serif;
     font-size: 30px;
     padding: 10px;
     letter-spacing: 0.5;
@@ -81,7 +81,6 @@
   .padding-top {
     padding-top: 90px;
   }
-
 }
 
 @media only screen and (max-width: 360px) {
@@ -90,14 +89,12 @@
   }
 
   .text-shadow-1 {
-    color: #FFFFFF;
+    color: #00df25;
     font-size: 18px;
-    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
-
   }
 
   .header-font {
-    font-family: 'Palanquin', sans-serif;
+    font-family: "Palanquin", sans-serif;
     font-size: 30px;
     padding: 10px;
     letter-spacing: 0.5;
@@ -106,19 +103,17 @@
   }
 
   .padding-top {
-    padding-top: 25px;
+    padding-top: 35px;
   }
 
   .quality-text {
-    font-family: 'Palanquin', sans-serif;
+    font-family: "Palanquin", sans-serif;
     font-weight: normal;
     font-style: normal;
     font-size: 10px;
     line-height: 1;
     color: rgb(202, 201, 201);
   }
-
-
 }
 
 .button {
@@ -129,11 +124,11 @@
   display: inline;
   padding: 10px 20px 10px 20px;
   font-size: 15px;
-  font-family: 'Palanquin', sans-serif;
+  font-family: "Palanquin", sans-serif;
   font-weight: 300px;
   box-shadow: 0px 5px 10px 10px rgba(74, 255, 24, 0.233);
 }
 
 #About {
-  transition: easeIn 2s
+  transition: easeIn 2s;
 }

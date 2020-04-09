@@ -91,17 +91,6 @@ const Contact = (props) => {
               </div>
 
               <div className="row">
-                <h2 className="contact-header">Head Office</h2>
-              </div>
-              <div className="text-left row  team-text">
-                <p>
-                  4 Gartenstrasse ZUG Switzerland
-                  <br />
-                  hello@tradingtonsglobal.com
-                </p>
-              </div>
-
-              <div className="row">
                 <h2 className="contact-header">Address:</h2>
               </div>
               <div className="text-left row team-text">
