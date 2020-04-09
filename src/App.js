@@ -157,7 +157,12 @@ const App = () => {
                   <MDBNavbarNav right>
                     {routes.map((route) => (
                       <MDBNavItem>
-                        <MDBNavLink to={"#" + route} target="_parent" active>
+                        <MDBNavLink
+                          onClick={handleClick}
+                          to={"#" + route}
+                          target="_parent"
+                          active
+                        >
                           <span className="nav-link white-text">{route}</span>
                         </MDBNavLink>
                       </MDBNavItem>
@@ -166,43 +171,52 @@ const App = () => {
                 </MDBCollapse>
               </MDBContainer>
             </MDBNavbar>
-          </Router>
-          <MDBMask overlay="black-strong" className="white-text">
-            <div className="container text-left my-5">
-              <div className="col-md-9 flex-center align-items-start flex-column py-5">
-                <h2 className="header-font">
-                  DELIVERING AFRICAN AGRICULTURAL COMMODITIES TO THE WORLD
-                </h2>
-                <br />
-                <div className="button">ABOUT US</div>
-              </div>
 
-              <div className="padding-top justify-stuff-bottom">
-                <MDBRow>
-                  <div className="col-2 px-5">
-                    <RenderContinents />
-                    <p className="quality-text">Continents</p>
+            <MDBMask overlay="black-strong" className="white-text">
+              <div className="container text-left my-5">
+                <div className="col-md-9 flex-center align-items-start flex-column py-5">
+                  <h2 className="header-font">
+                    DELIVERING AFRICAN AGRICULTURAL COMMODITIES TO THE WORLD
+                  </h2>
+                  <br />
+                  <div className="button" role="button">
+                    <span>
+                      <a href="#About" target="_parent" className="text-white">
+                        ABOUT US
+                      </a>
+                    </span>
                   </div>
-                  <div className="col-2 px-5">
-                    <RenderWeps />
-                    <p className="quality-text">Women Employed Per Shipment</p>
-                  </div>
-                  <div className="col-2 px-5">
-                    <RenderTonsShipped />
-                    <p className="quality-text">Tonnage Shipped</p>
-                  </div>
-                  <div className="col-2 px-5 text-center">
-                    <RenderTradedCommodities />
-                    <div className="quality-text">Traded Commodities</div>
-                  </div>
-                  <div className="col-2 px-5">
-                    <RenderEngagedFarmers />
-                    <p className="quality-text">Engaged Farmers</p>
-                  </div>
-                </MDBRow>
+                </div>
+
+                <div className="padding-top justify-stuff-bottom">
+                  <MDBRow>
+                    <div className="col-2 px-5">
+                      <RenderContinents />
+                      <p className="quality-text">Continents</p>
+                    </div>
+                    <div className="col-2 px-5">
+                      <RenderWeps />
+                      <p className="quality-text">
+                        Women Employed Per Shipment
+                      </p>
+                    </div>
+                    <div className="col-2 px-5">
+                      <RenderTonsShipped />
+                      <p className="quality-text">Tonnage Shipped</p>
+                    </div>
+                    <div className="col-2 px-5 text-center">
+                      <RenderTradedCommodities />
+                      <div className="quality-text">Traded Commodities</div>
+                    </div>
+                    <div className="col-2 px-5">
+                      <RenderEngagedFarmers />
+                      <p className="quality-text">Engaged Farmers</p>
+                    </div>
+                  </MDBRow>
+                </div>
               </div>
-            </div>
-          </MDBMask>
+            </MDBMask>
+          </Router>
         </MDBView>
       </header>
 
