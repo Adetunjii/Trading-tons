@@ -174,7 +174,10 @@ const App = () => {
 
             <MDBMask overlay="black-strong" className="white-text">
               <div className="container text-left my-5">
-                <div className="col-md-9 flex-center align-items-start flex-column py-5">
+                <div
+                  className="col-md-9 flex-center align-items-start flex-column"
+                  style={{ paddingTop: "100px" }}
+                >
                   <h2 className="header-font">
                     DELIVERING AFRICAN AGRICULTURAL COMMODITIES TO THE WORLD
                   </h2>
