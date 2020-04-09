@@ -55,43 +55,16 @@
   background-color: rgba(0, 0, 0, 0.95);
 }
 
-@media only screen and (min-width: 1200px) {
-  .padding-top {
-    position: absolute;
-    bottom: 10px;
-  }
-}
-
-@media(min-width: 1024px) {
-  .padding-top {
-    position: absolute;
-    bottom: 10px;
-  }
-}
-
-/* @media only screen and(min-width: 768.1px) and (max-width: 1199.98px) {
-  padding-top {
-    position: absolute;
-    bottom: 50px;
-  }
-} */
-
-@media (min-width: 768px) and (max-width: 1023.98px) {
+@media(min-width: 769px) and (max-width: 992px) {
   .navbar {
     background-color: rgba(0, 0, 0, 0.774);
-  }
 
-  .header {
-    top: 50px;
   }
+}
 
-  .counter-text {
-    font-family: 'Palanquin', sans-serif;
-    font-weight: 900;
-    font-size: 20px;
-    line-height: 1;
-    letter-spacing: 2px;
-    color: rgb(48, 179, 9);
+@media (min-width: 320px) and (max-width: 768px) {
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.774);
   }
 
   .text-shadow-1 {
@@ -99,147 +72,24 @@
     font-size: 18px;
   }
 
-  .header-font {
-    font-family: "Palanquin", sans-serif;
-    font-size: 30px;
-    letter-spacing: 0.5;
-    font-style: normal;
-    font-weight: bold;
-  }
-
-  .padding-top {
-    position: absolute;
-    bottom: -10px;
-  }
-
   .quality-text {
     font-family: "Palanquin", sans-serif;
     font-weight: normal;
     font-style: normal;
-    font-size: 14px;
-    line-height: 1.5;
-    color: rgb(202, 201, 201);
-  }
-}
-
-@media (min-width: 400.1px) and (max-width: 767.98px) {
-  .navbar {
-    background-color: rgba(0, 0, 0, 0.774);
-  }
-
-  .header {
-    top: 35px;
-  }
-
-  .text-shadow-1 {
-    color: #00df25;
-    font-size: 18px;
-  }
-
-  .header-font {
-    font-family: "Palanquin", sans-serif;
-    font-size: 20px;
-    letter-spacing: 0.5;
-    font-style: normal;
-    font-weight: bold;
-  }
-
-  .padding-top {
-    position: absolute;
-    bottom: -5px;
-  }
-
-
-  .quality-text {
-    font-family: "Palanquin", sans-serif;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 0.5px;
-    line-height: 1.4;
-    color: rgb(143, 143, 143);
-  }
-}
-
-@media (min-width: 360px) and (max-width: 400px) {
-  .navbar {
-    background-color: rgba(0, 0, 0, 0.774);
-  }
-
-  .text-shadow-1 {
-    color: #00df25;
-    font-size: 18px;
-  }
-
-  .header-font {
-    font-family: "Palanquin", sans-serif;
-    font-size: 25px;
-    letter-spacing: 0.5;
-    font-style: normal;
-    font-weight: bold;
-  }
-
-  .padding-top {
-    position: absolute;
-    bottom: 15px;
-
-
-  }
-
-  .quality-text {
-    font-family: "Palanquin", sans-serif;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1;
-    color: rgb(202, 201, 201);
-  }
-}
-
-@media (min-width: 320px) and (max-width: 359.98px) {
-  .navbar {
-    background-color: rgba(0, 0, 0, 0.774);
-  }
-
-  .text-shadow-1 {
-    color: #00df25;
-    font-size: 18px;
-  }
-
-  .quality-text {
-    font-family: "Palanquin", sans-serif;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 14px;
-    letter-spacing: 0.5px;
-    line-height: 1.4;
+    line-height: 1.6;
     color: rgb(143, 143, 143);
   }
 
-
   .header-font {
     font-family: "Palanquin", sans-serif;
-    font-size: 25px;
+    font-size: 40px;
     letter-spacing: 0.5;
     font-style: normal;
     font-weight: bold;
   }
 
-  .padding-top {
-    position: absolute;
-    bottom: 10px;
-
-
-  }
-
-  .quality-text {
-    font-family: "Palanquin", sans-serif;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 10px;
-    line-height: 1;
-    color: rgb(202, 201, 201);
-  }
 }
 
 .button {
