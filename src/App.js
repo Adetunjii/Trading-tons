@@ -169,7 +169,7 @@ const App = () => {
           </Router>
           <MDBMask overlay="black-strong" className="white-text">
             <div className="container text-left my-5">
-              <div className="col-lg-9 flex-center align-items-start flex-column padding-top">
+              <div className="col-md-9 flex-center align-items-start flex-column padding-top">
                 <h2 className="header-font">
                   DELIVERING AFRICAN AGRICULTURAL COMMODITIES TO THE WORLD
                 </h2>
@@ -177,8 +177,8 @@ const App = () => {
                 <div className="button">ABOUT US</div>
               </div>
 
-              <div className="padding-top">
-                <MDBRow className="justify-content-lg-center">
+              <div className="padding-top justify-stuff-bottom">
+                <MDBRow>
                   <div className="col-2 px-5">
                     <RenderContinents />
                     <p className="quality-text">Continents</p>
