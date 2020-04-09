@@ -174,10 +174,7 @@ const App = () => {
 
             <MDBMask overlay="black-strong" className="white-text">
               <div className="container text-left my-5">
-                <div
-                  className="col-md-9 flex-center align-items-start flex-column"
-                  style={{ paddingTop: "100px" }}
-                >
+                <div className="col-md-9 flex-center align-items-start flex-column header">
                   <h2 className="header-font">
                     DELIVERING AFRICAN AGRICULTURAL COMMODITIES TO THE WORLD
                   </h2>
@@ -191,7 +188,7 @@ const App = () => {
                   </div>
                 </div>
 
-                <div className="padding-top justify-stuff-bottom">
+                <div className="padding-top">
                   <MDBRow>
                     <div className="col-2 px-5">
                       <RenderContinents />
