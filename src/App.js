@@ -175,7 +175,7 @@ const App = () => {
             <MDBMask overlay="black-strong" className="white-text">
               <div className="container text-left my-5">
                 <div className="row">
-                  <div className="col-md-9 align-items-start header">
+                  <div className="col-sm-9 align-items-start header">
                     <h2 className="header-font">
                       DELIVERING AFRICAN AGRICULTURAL COMMODITIES TO THE WORLD
                     </h2>
@@ -193,6 +193,33 @@ const App = () => {
                     </div>
                   </div>
                 </div>
+
+                <MDBContainer className="padding-top">
+                  <MDBRow>
+                    <div className="col-2 text-center py-2">
+                      <RenderContinents />
+                      <p className="quality-text">Continents Shipped To</p>
+                    </div>
+                    <div className="col-2 text-center py-2">
+                      <RenderWeps />
+                      <p className="quality-text text-center">
+                        Women Employed Per Shipment
+                      </p>
+                    </div>
+                    <div className="col-2 text-center py-2">
+                      <RenderTonsShipped />
+                      <p className="quality-text">Tonnage Shipped</p>
+                    </div>
+                    <div className="col-auto text-center py-2">
+                      <RenderTradedCommodities />
+                      <div className="quality-text">Traded Commodities</div>
+                    </div>
+                    <div className="col-2 text-center py-2">
+                      <RenderEngagedFarmers />
+                      <p className="quality-text">Engaged Farmers</p>
+                    </div>
+                  </MDBRow>
+                </MDBContainer>
               </div>
             </MDBMask>
           </Router>
