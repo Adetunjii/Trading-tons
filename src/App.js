@@ -193,33 +193,6 @@ const App = () => {
                     </div>
                   </div>
                 </div>
-
-                <MDBContainer className="padding-top">
-                  <MDBRow>
-                    <div className="col-2 text-center py-2">
-                      <RenderContinents />
-                      <p className="quality-text">Continents Shipped To</p>
-                    </div>
-                    <div className="col-2 text-center py-2">
-                      <RenderWeps />
-                      <p className="quality-text text-center">
-                        Women Employed Per Shipment
-                      </p>
-                    </div>
-                    <div className="col-2 text-center py-2">
-                      <RenderTonsShipped />
-                      <p className="quality-text">Tonnage Shipped</p>
-                    </div>
-                    <div className="col-auto text-center py-2">
-                      <RenderTradedCommodities />
-                      <div className="quality-text">Traded Commodities</div>
-                    </div>
-                    <div className="col-2 text-center py-2">
-                      <RenderEngagedFarmers />
-                      <p className="quality-text">Engaged Farmers</p>
-                    </div>
-                  </MDBRow>
-                </MDBContainer>
               </div>
             </MDBMask>
           </Router>
