@@ -4,8 +4,6 @@ import * as charles from "./assets/charles.png";
 import * as folabi from "./assets/folabi.jpg";
 import {
   MDBRow,
-  MDBCard,
-  MDBCardBody,
   MDBModalBody,
   MDBModal,
   MDBContainer,
