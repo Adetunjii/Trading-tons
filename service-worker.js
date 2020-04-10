@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Trading-tons/precache-manifest.350e4ed215b0827173955c56fa1fc412.js"
+  "/Trading-tons/precache-manifest.805cdb2f5b58f5df7d8e7d1d0ef9d0e9.js"
 );
 
 self.addEventListener('message', (event) => {
