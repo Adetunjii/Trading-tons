@@ -172,56 +172,54 @@ const App = () => {
             </MDBNavbar>
 
             <MDBMask overlay="black-strong" className="white-text">
-              <div className="container">
-                <div className="container text-left my-5">
-                  <div className="row">
-                    <div className="col-md-9 flex-center align-items-start flex-column header">
-                      <h2 className="header-font">
-                        DELIVERING AFRICAN AGRICULTURAL COMMODITIES TO THE WORLD
-                      </h2>
-                      <br />
-                      <div className="button" role="button">
-                        <span>
-                          <a
-                            href="#About"
-                            target="_parent"
-                            className="text-white"
-                          >
-                            ABOUT US
-                          </a>
-                        </span>
-                      </div>
+              <div className="container text-left my-5">
+                <div className="row">
+                  <div className="col-md-9 flex-center align-items-start flex-column header">
+                    <h2 className="header-font">
+                      DELIVERING AFRICAN AGRICULTURAL COMMODITIES TO THE WORLD
+                    </h2>
+                    <br />
+                    <div className="button" role="button">
+                      <span>
+                        <a
+                          href="#About"
+                          target="_parent"
+                          className="text-white"
+                        >
+                          ABOUT US
+                        </a>
+                      </span>
                     </div>
                   </div>
                 </div>
-
-                <MDBContainer size="lg" className="padding-top">
-                  <MDBRow>
-                    <div className="col-2 text-center py-2">
-                      <RenderContinents />
-                      <p className="quality-text">Continents Shipped To</p>
-                    </div>
-                    <div className="col-2 text-center py-2">
-                      <RenderWeps />
-                      <p className="quality-text text-center">
-                        Women Employed Per Shipment
-                      </p>
-                    </div>
-                    <div className="col-2 text-center py-2">
-                      <RenderTonsShipped />
-                      <p className="quality-text">Tonnage Shipped</p>
-                    </div>
-                    <div className="col-auto text-center py-2">
-                      <RenderTradedCommodities />
-                      <div className="quality-text">Traded Commodities</div>
-                    </div>
-                    <div className="col-2 text-center py-2">
-                      <RenderEngagedFarmers />
-                      <p className="quality-text">Engaged Farmers</p>
-                    </div>
-                  </MDBRow>
-                </MDBContainer>
               </div>
+
+              <MDBContainer size="lg" className="padding-top">
+                <MDBRow>
+                  <div className="col-2 text-center py-2">
+                    <RenderContinents />
+                    <p className="quality-text">Continents Shipped To</p>
+                  </div>
+                  <div className="col-2 text-center py-2">
+                    <RenderWeps />
+                    <p className="quality-text text-center">
+                      Women Employed Per Shipment
+                    </p>
+                  </div>
+                  <div className="col-2 text-center py-2">
+                    <RenderTonsShipped />
+                    <p className="quality-text">Tonnage Shipped</p>
+                  </div>
+                  <div className="col-auto text-center py-2">
+                    <RenderTradedCommodities />
+                    <div className="quality-text">Traded Commodities</div>
+                  </div>
+                  <div className="col-2 text-center py-2">
+                    <RenderEngagedFarmers />
+                    <p className="quality-text">Engaged Farmers</p>
+                  </div>
+                </MDBRow>
+              </MDBContainer>
             </MDBMask>
           </Router>
         </MDBView>
