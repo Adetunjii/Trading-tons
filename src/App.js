@@ -148,7 +148,7 @@ const App = () => {
         <MDBView src={cover} className="img-fluid bg">
           <Router>
             <MDBNavbar dark expand="lg" className="z-depth-0">
-              <MDBContainer>
+              <MDBContainer fluid>
                 <MDBNavbarBrand href="/">
                   <strong className="text-shadow-1">SOURCING & PRODUCE</strong>
                 </MDBNavbarBrand>
@@ -173,9 +173,9 @@ const App = () => {
             </MDBNavbar>
 
             <MDBMask overlay="black-strong" className="white-text">
-              <div className="container-md text-left my-5">
-                <div className="row">
-                  <div className="col-sm-8 align-items-start header">
+              <div className="text-left my-5 container-fluid">
+                <div className="row px-lg-5">
+                  <div className="col-sm-10 col-md-8 col-lg-7 header">
                     <h2 className="header-font">
                       DELIVERING AFRICAN AGRICULTURAL COMMODITIES TO THE WORLD
                     </h2>
@@ -193,33 +193,34 @@ const App = () => {
                     </div>
                   </div>
                 </div>
-
-                <MDBContainer className="padding-top">
+              </div>
+              <div className="container justify-content-between">
+                <div className="padding-top">
                   <MDBRow>
-                    <div className="col-2 text-center py-2">
+                    <div className="col-2 text-center px-5 py-1">
                       <RenderContinents />
                       <p className="quality-text">Continents Shipped To</p>
                     </div>
-                    <div className="col-2 text-center py-2">
+                    <div className="col-2 text-center px-5 py-1">
                       <RenderWeps />
                       <p className="quality-text text-center">
                         Women Employed Per Shipment
                       </p>
                     </div>
-                    <div className="col-2 text-center py-2">
+                    <div className="col-2 text-center py-1 px-5">
                       <RenderTonsShipped />
                       <p className="quality-text">Tonnage Shipped</p>
                     </div>
-                    <div className="col-auto text-center py-2">
+                    <div className="col-2 text-center py-1 px-5">
                       <RenderTradedCommodities />
                       <div className="quality-text">Traded Commodities</div>
                     </div>
-                    <div className="col-2 text-center py-2">
+                    <div className="col-2 text-center py-1 px-5">
                       <RenderEngagedFarmers />
                       <p className="quality-text">Engaged Farmers</p>
                     </div>
                   </MDBRow>
-                </MDBContainer>
+                </div>
               </div>
             </MDBMask>
           </Router>

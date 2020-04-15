@@ -90,7 +90,18 @@
 
   .header {
     position: absolute;
-    top: 30px;
+    top: 45px;
+  }
+
+  .text-shadow-1 {
+    color: transparent;
+    font-size: 30px;
+    font-family: "Palanquin", sans-serif;
+    font-weight: bold;
+    background: url("./assets/green.jpeg");
+    background-size: 70% 70%;
+    background-clip: text;
+    -webkit-background-clip: text;
   }
 
   .counter-text {
@@ -144,6 +155,25 @@
   .header-font {
     font-family: "Palanquin", sans-serif;
     font-size: 25px;
+    letter-spacing: 0.5;
+    font-style: normal;
+    font-weight: bold;
+  }
+
+  .text-shadow-1 {
+    color: transparent;
+    font-size: 25px;
+    font-family: "Palanquin", sans-serif;
+    font-weight: bold;
+    background: url("./assets/green.jpeg");
+    background-size: 70% 70%;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+  .header-font {
+    font-family: "Palanquin", sans-serif;
+    font-size: 40px;
     letter-spacing: 0.5;
     font-style: normal;
     font-weight: bold;
