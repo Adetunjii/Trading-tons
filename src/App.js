@@ -173,9 +173,9 @@ const App = () => {
             </MDBNavbar>
 
             <MDBMask overlay="black-strong" className="white-text">
-              <div className="container text-left my-5">
+              <div className="container-md text-left my-5">
                 <div className="row">
-                  <div className="col-sm-9 align-items-start header">
+                  <div className="col-sm-8 align-items-start header">
                     <h2 className="header-font">
                       DELIVERING AFRICAN AGRICULTURAL COMMODITIES TO THE WORLD
                     </h2>
