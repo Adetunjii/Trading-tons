@@ -14,11 +14,11 @@
   width: 100% auto;
 }
 
+/* 
 .header {
   position: absolute;
   top: 0px;
-  margin-top: 150px;
-}
+} */
 
 .header-font {
   font-family: "Manrope", sans-serif;
@@ -31,7 +31,10 @@
   font-weight: 600;
 }
 
-
+.margin {
+  margin-top: 160px;
+  margin-bottom: 160px;
+}
 
 .nav-link {
   font-family: "Manrope", sans-serif;
