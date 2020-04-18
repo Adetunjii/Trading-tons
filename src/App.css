@@ -16,7 +16,7 @@
 
 .header {
   position: absolute;
-  top: 60px;
+  top: 0px;
 }
 
 .header-font {
@@ -31,8 +31,7 @@
 }
 
 .margin {
-  margin-top: 140px;
-  margin-bottom: 140px;
+  margin-top: 250px;
 }
 
 .nav-link {
