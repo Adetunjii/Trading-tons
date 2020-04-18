@@ -17,6 +17,7 @@
 .header {
   position: absolute;
   top: 0px;
+  margin-top: 150px;
 }
 
 .header-font {
@@ -30,9 +31,7 @@
   font-weight: 600;
 }
 
-.margin {
-  margin-top: 250px;
-}
+
 
 .nav-link {
   font-family: "Manrope", sans-serif;
