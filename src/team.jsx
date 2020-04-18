@@ -2,10 +2,12 @@ import React, { Component } from "react";
 import * as lanre from "./assets/LanreAwojoodu.jpg";
 import * as charles from "./assets/charles.png";
 import * as folabi from "./assets/folabi.jpg";
+
 import {
   MDBRow,
   MDBModalBody,
   MDBModal,
+  MDBMask,
   MDBContainer,
   MDBModalHeader,
 } from "mdbreact";
@@ -15,7 +17,7 @@ class Team extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      modal13: false,
+      modal14: false,
       name: "",
       description: "",
       position: "",
@@ -39,26 +41,31 @@ class Team extends Component {
       {
         name: "Lanre Awojoodu",
         imageUrl: lanre,
-        shortDesc:
-          "Lanre Awojoodu has over 10 years experience in a variety of trading and consulting roles in Trading...",
-        description:
-          "Lanre Awojoodu has over 10 years experience in a variety of trading and consulting roles in Trading, Logistics and FMCG of Nigerian companies. Before founding Trading Tons, he was responsible for leading a cross-functional team in SAP project implementation specializing in Business One and Material Management. His notable implementation projects include companies like GZI Industries (a can manufacturing company with a capacity of 1.3billion cans yearly), Cadbury Nigeria, Girvanas Ltd (nationwide distributor and importer of consumer products such as Luna milk, tin tomatoes), Clarion Bonded Terminal, Marine Platforms (Oil and Gas Servicing), Nagode Group (Importers of Ethanol, Solvents, Cosmetic chemicals into Nigeria), Elektrint Nigeria Ltd (Construction), Petrolog Group (Oil and Gas Servicing) Lanre began his career in sales as a Diebold ATM distributor at Hammond Financials. His entrepreneurial spirit has always been evident from his undergraduate days at the university, were he owned a chicken and chips joint with four employees and also extended the business at Lagos NYSC camp as a corper. As an undergraduate, he also owned and successfully managed a pig farming for 2 years. Outside of work, Lanre is an avid reader and passionate about Africa and encouraging entrepreneurship across various sectors. He believes entrepreneurship is a major driver of sustainable change and growth across the continent. In 2004, he graduated B.Sc. Accounting from the University of Lagos, with an MBA from the Obafemi Awolowo University in 2007. Lanre is an SAP certified consultant.",
-        position: "Founder, CEO",
+        description: `Lanre, has successfuly been directly involved in exporting over 2000+ Agric commodities from Nigeria since 2012.
+         He has exported eight commodities such as pepper, ginger to eighteen countries from 5 continents over the last 10years.
+         Lanre has a B.sc Accounting from the University of Lagos and MBA from  Obafemi Awolowo University. Prior to his foray in the Agric Commodity industry,
+         Lanre is a certified SAP consultant and Project Manager. He was directly involved in the implementations enterprise softwares in an array of industries from manufacturing, oil and gas to trading.
+         `,
+        position: "Founder and CEO",
       },
       {
-        name: "Charles Taylor",
+        name: "Emiel Bakker",
         imageUrl: charles,
-        shortDesc:
-          "Charles is on out board and has extensive experience in commodity contracting and sales, corporate partnership development...",
-        description:
-          "Charles is on our board and has extensive experience in commodity contracting and sales, corporate partnership development, and guiding the company’s expansion into new markets. He has a background in finance, real estate, agriculture, and natural resource development. He is Director at Earth Partners, He is also on the board of Drylands Natural Resource Centre, an agro-forestry and environmental organization in Kenya. Charles previously consulted for the Bill & Melinda Gates Foundation within their agricultural development group, where he worked on input supply chain development and financing issues. Charles has previously worked for Bank of America Merrill Lynch in New York and McKinsey & Company. Chas is American, a graduate of the University of Virginia, he tries to spend as much time as possible on his farm in Rapidan, Virginia. Chas effectively promotes Trading Tons in the American markets.",
-        position: "Director",
+        description: `
+          He's a Dutch with over 20 years as a soft commodity trader. He specializes in the supplying of spices, raw coffee, cocoa products, tea, nuts, dried fruit, seeds and pulses.
+          He has extensive relationships with suppliers of numerous countries of oriin and buyers across the globe. Emiel years of experience is a major value added for Sourcing and Produce. 
+          `,
+        position: "Board Advisor",
       },
 
       {
         name: "Folabi Esan",
         imageUrl: folabi,
-        position: "Director",
+        position: "Chairman of Board",
+        description: `
+        Folabi received a B.eng. in Mechanical Engineering(First class division) from Ahhmadu Bello University, an M.S in Manufacturing Systems Engineering from Stanford University, and an M.Sc in Innovation Management and Technology Policy from the University of London.
+        Folabi is the recent past president of the Nigerian-German Chamber of Commerce, Folabi is also a partner at Adlevo Capital since it was founded in 2007 and the first Managing Director of SAP Nigeria, the Nigerian subsidiary of the leading enterprise software company, for five years.
+        `,
       },
     ];
 
@@ -67,19 +74,33 @@ class Team extends Component {
         <div className="text-center">
           <p style={{ color: "rgb(15, 214, 15)" }}>WHO WE ARE</p>
           <h1 className="about-header py-3">OUR TEAM</h1>
-          <MDBRow className="my-3 mx-md-n5 py-5">
+          <MDBRow className="my-3 py-5">
             {team.map((team) => (
-              <div className="col-md-4 my-4">
+              <div className="col-md-6 col-lg-4 my-4">
                 <div className="box">
                   <div className="my-card">
                     <div className="imgBx">
-                      <img src={team.imageUrl} alt={team.name} />
+                      <MDBMask overlay="black-strong">
+                        <img src={team.imageUrl} alt={team.name} />
+                      </MDBMask>
                     </div>
                     <div className="details">
                       <h2>
                         {team.name}
                         <br />
                         <span>{team.position}</span>
+                        <button
+                          className="btn btn-sm fadeInUp"
+                          onClick={this.toggle(
+                            14,
+                            team.description,
+                            team.name,
+                            team.imageUrl,
+                            team.position
+                          )}
+                        >
+                          Read more
+                        </button>
                       </h2>
                     </div>
                   </div>
@@ -90,34 +111,38 @@ class Team extends Component {
 
           <MDBContainer>
             <MDBModal
-              isOpen={this.state.modal13}
-              toggle={this.toggle(13)}
+              isOpen={this.state.modal14}
+              toggle={this.toggle(14)}
               fullHeight
               position="top"
             >
               <MDBModalHeader
-                toggle={this.toggle(13)}
-                className="team-name text-left"
+                toggle={this.toggle(14)}
+                className="team-name text-center"
               >
-                {this.state.name}
-                <h4 className="grey-text text-left">{this.state.position}</h4>
-              </MDBModalHeader>
-              <MDBModalBody className="py-2">
-                <div className="row">
-                  <div className="col-lg-4">
+                <MDBMask className="black-strong">
+                  <span>
                     <img
                       src={this.state.imageUrl}
                       alt={this.state.name}
-                      className="img-responsive img-fluid"
+                      className="img-fluid"
                       style={{
                         width: "150px",
                         height: "150px",
                       }}
                     />
-                  </div>
-                  <div className="col-lg-8 text-left team-text">
-                    {this.state.description}
-                  </div>
+                  </span>
+                </MDBMask>
+                <div>
+                  {this.state.name}
+                  <h4 className="grey-text text-left team-text">
+                    {this.state.position}
+                  </h4>
+                </div>
+              </MDBModalHeader>
+              <MDBModalBody className="py-2">
+                <div className="text-left quality-text">
+                  {this.state.description}
                 </div>
               </MDBModalBody>
             </MDBModal>

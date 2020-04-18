@@ -82,7 +82,7 @@ const Contact = (props) => {
               <div className="row">
                 <h2 className="contact-header">Let's Chat</h2>
               </div>
-              <div className="text-left row  team-text">
+              <div className="text-left row  quality-text">
                 <p>
                   We are friendly and available to chat.
                   <br />
@@ -93,27 +93,31 @@ const Contact = (props) => {
               <div className="row">
                 <h2 className="contact-header">Address:</h2>
               </div>
-              <div className="text-left row team-text">
+              <div className="text-left quality-text">
                 <p>
                   87 Allen Avenue, Ikeja Lagos State, Nigeria. <br />
                   +234 8146132690 (8am to 5pm Weekdays)
-                  <br />
-                  Email:
-                  <span>
-                    <a href="mailto:business@sourcingandproduce.com">
-                      business@sourcingandproduce.com
-                    </a>
-                  </span>
-                  <br />
                 </p>
                 <p>
-                  Instagram:{" "}
-                  <a href="http://instagram.com/"> Sourcingandproduce</a>
-                  <br />
-                  Youtube:
-                  <a href="http://youtube.com/"> Sourcingandproduce</a>
+                  <MDBIcon far icon="envelope" className="red-text" />
+                  <a
+                    className="quality-text px-2"
+                    href="mailto:http://webmail.sourcingandproduce.com/appsuite/"
+                  >
+                    webmail.sourcingandproduce.com/appsuite
+                  </a>
                 </p>
-                <p></p>
+                <p>
+                  <MDBIcon fab icon="youtube" className="red-text">
+                    <a className="quality-text px-2" href="#">
+                      Sourcing and produce
+                    </a>
+                  </MDBIcon>
+                </p>
+                <p>
+                  <MDBIcon fab icon="instagram" className="red-text" />
+                  <a className="quality-text px-2">Sourcingandproduce</a>
+                </p>
               </div>
             </div>
           </div>

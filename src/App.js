@@ -24,7 +24,7 @@ import {
 } from "mdbreact";
 
 const App = () => {
-  const routes = ["Home", "About", "Products", "Contact"];
+  const routes = ["Home", "About", "Products", "Team", "Contact"];
   const [isOpen, setIsOpen] = useState(false);
 
   const handleClick = () => {
@@ -148,7 +148,7 @@ const App = () => {
         <MDBView src={cover} className="img-fluid bg">
           <Router>
             <MDBNavbar dark expand="lg" className="z-depth-0">
-              <MDBContainer fluid>
+              <MDBContainer fluid className="px-lg-5">
                 <MDBNavbarBrand href="/">
                   <strong className="text-shadow-1">SOURCING & PRODUCE</strong>
                 </MDBNavbarBrand>
@@ -162,8 +162,9 @@ const App = () => {
                           to={"#" + route}
                           target="_parent"
                           active
+                          className="nav-link"
                         >
-                          <span className="nav-link white-text">{route}</span>
+                          <span className="white-text">{route}</span>
                         </MDBNavLink>
                       </MDBNavItem>
                     ))}
@@ -173,11 +174,11 @@ const App = () => {
             </MDBNavbar>
 
             <MDBMask overlay="black-strong" className="white-text">
-              <div className="text-left my-5 container-fluid">
+              <div className="text-left container-fluid margin">
                 <div className="row px-lg-5">
-                  <div className="col-sm-10 col-md-8 col-lg-7 header">
+                  <div className=" col-sm-8 col-md-8 col-lg-8 header">
                     <h2 className="header-font">
-                      DELIVERING AFRICAN AGRICULTURAL COMMODITIES TO THE WORLD
+                      DELIVERING AFRICA'S AGRIC-COMMODITIES GLOBALLY
                     </h2>
                     <br />
                     <div className="button" role="button">
@@ -245,14 +246,14 @@ const App = () => {
           <Product id="Products" />
         </div>
       </div>
-      {/* <div
+      <div
         data-spy="scroll"
         data-target="#Team"
         className="scrollspy-example"
         data-offset="0"
       >
         <Team id="Team" />
-      </div> */}
+      </div>
       <div
         data-spy="scroll"
         data-target="#Contact"
