@@ -32,8 +32,8 @@
 }
 
 .margin {
-  margin-top: 160px;
-  margin-bottom: 160px;
+  margin-top: 220px;
+  margin-bottom: 200px;
 }
 
 .nav-link {
@@ -94,10 +94,10 @@
     background-color: rgba(0, 0, 0, 0.774);
   }
 
-  .header {
+  /* .header {
     position: absolute;
     top: 45px;
-  }
+  } */
 
   .text-shadow-1 {
     color: transparent;
@@ -120,8 +120,8 @@
   }
 
   .margin {
-    margin-top: 130px;
-    margin-bottom: 130px;
+    margin-top: 150px;
+    margin-bottom: 150px;
   }
 
   .padding-top {
@@ -270,6 +270,11 @@
   .padding-top {
     position: absolute;
     bottom: -20px;
+  }
+
+  .margin {
+    margin-top: 90px;
+    margin-bottom: 90px;
   }
 
   .quality-text {
