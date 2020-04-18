@@ -176,7 +176,7 @@ const App = () => {
             <MDBMask overlay="black-strong" className="white-text">
               <div className="text-left container-fluid margin">
                 <div className="row px-lg-5">
-                  <div className=" col-sm-8 col-md-8 col-lg-8 header">
+                  <div className=" col-sm-8 col-md-8 col-lg-8">
                     <h2 className="header-font">
                       DELIVERING AFRICA'S AGRIC-COMMODITIES GLOBALLY
                     </h2>
