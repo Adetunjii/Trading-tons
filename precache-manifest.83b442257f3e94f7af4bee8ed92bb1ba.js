@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1ac91fec9f812b4b7aa7840195c71e4a",
+    "revision": "39219eedfffc61387b41d53563bc5b0e",
     "url": "/Trading-tons/index.html"
   },
   {
-    "revision": "cb438e4149d833383f10",
+    "revision": "cca9e0a6c29954c35b8d",
     "url": "/Trading-tons/static/css/2.0bcd10d5.chunk.css"
   },
   {
-    "revision": "70f79ffc96988802d6ac",
-    "url": "/Trading-tons/static/css/main.97b08f24.chunk.css"
+    "revision": "674e3197de8a3ca67d35",
+    "url": "/Trading-tons/static/css/main.d270b113.chunk.css"
   },
   {
-    "revision": "cb438e4149d833383f10",
-    "url": "/Trading-tons/static/js/2.066f7c01.chunk.js"
+    "revision": "cca9e0a6c29954c35b8d",
+    "url": "/Trading-tons/static/js/2.90c2f2cf.chunk.js"
   },
   {
     "revision": "df8be702f0cc9d299c0ff42ca03d3e40",
-    "url": "/Trading-tons/static/js/2.066f7c01.chunk.js.LICENSE.txt"
+    "url": "/Trading-tons/static/js/2.90c2f2cf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "70f79ffc96988802d6ac",
-    "url": "/Trading-tons/static/js/main.0e5441b9.chunk.js"
+    "revision": "674e3197de8a3ca67d35",
+    "url": "/Trading-tons/static/js/main.8d2e0116.chunk.js"
   },
   {
     "revision": "5ce9e534995b0d6a78cc",
     "url": "/Trading-tons/static/js/runtime-main.f44c3862.js"
+  },
+  {
+    "revision": "821fb6e73d3fff3cc0f8073307aaab40",
+    "url": "/Trading-tons/static/media/LanreAwojoodu.821fb6e7.jpg"
   },
   {
     "revision": "a2810f001f231de89b4e804f35db9b8a",
@@ -48,10 +52,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Trading-tons/static/media/cashewNuts.2dd37c2e.jpg"
   },
   {
-    "revision": "55acc26572ca1f3ddcc3fbb8e8cfaf0f",
-    "url": "/Trading-tons/static/media/charles.55acc265.png"
-  },
-  {
     "revision": "d2ccacf93e2db7f8ca3e26db695b5fd2",
     "url": "/Trading-tons/static/media/cover.d2ccacf9.jpg"
   },
@@ -62,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4f54044dff4d5fa800a277477b98374b",
     "url": "/Trading-tons/static/media/dry_ginger.4f54044d.jpg"
+  },
+  {
+    "revision": "33abd2c0ab7ff21a93cbe45444cef68e",
+    "url": "/Trading-tons/static/media/emeil.33abd2c0.png"
   },
   {
     "revision": "067595ad77ecc0db9c81c8905a7eef32",
