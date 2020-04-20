@@ -54,7 +54,7 @@
 .text-shadow-1 {
   color: transparent;
   font-size: 35px;
-  font-family: "Palanquin", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: bold;
   background: url("./assets/green.jpeg");
   background-size: 50% 50%;
@@ -76,7 +76,7 @@
 }
 
 .quality-text {
-  font-family: "Palanquin", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 16px;
@@ -102,7 +102,7 @@
   .text-shadow-1 {
     color: transparent;
     font-size: 30px;
-    font-family: "Palanquin", sans-serif;
+    font-family: "Manrope", sans-serif;
     font-weight: bold;
     background: url("./assets/green.jpeg");
     background-size: 70% 70%;
@@ -120,8 +120,8 @@
   }
 
   .margin {
-    margin-top: 150px;
-    margin-bottom: 150px;
+    margin-top: 170px;
+    margin-bottom: 170px;
   }
 
   .padding-top {
@@ -157,7 +157,7 @@
   }
 
   .quality-text {
-    font-family: "Palanquin", sans-serif;
+    font-family: "Manrope", sans-serif;
     font-weight: normal;
     font-style: normal;
     font-size: 12px;
@@ -180,7 +180,7 @@
   .text-shadow-1 {
     color: transparent;
     font-size: 20px;
-    font-family: "Palanquin", sans-serif;
+    font-family: "Manrope", sans-serif;
     font-weight: bold;
     background: url("./assets/green.jpeg");
     background-size: 70% 70%;
@@ -194,7 +194,7 @@
   }
 
   .counter-text {
-    font-family: "Palanquin", sans-serif;
+    font-family: "Manrope", sans-serif;
     font-weight: bold;
     font-size: 20px;
     line-height: 0.2;
@@ -221,7 +221,7 @@
   .text-shadow-1 {
     color: transparent;
     font-size: 20px;
-    font-family: "Palanquin", sans-serif;
+    font-family: "Manrope", sans-serif;
     font-weight: bold;
     background: url("./assets/green.jpeg");
     background-size: 70% 70%;
@@ -235,7 +235,7 @@
   }
 
   .quality-text {
-    font-family: "Palanquin", sans-serif;
+    font-family: "Manrope", sans-serif;
     font-weight: normal;
     font-style: normal;
     font-size: 12px;
@@ -253,7 +253,7 @@
   }
 
   .counter-text {
-    font-family: "Palanquin", sans-serif;
+    font-family: "Manrope", sans-serif;
     font-weight: bold;
     font-size: 20px;
     line-height: 0.2;
@@ -283,7 +283,7 @@
   }
 
   .quality-text {
-    font-family: "Palanquin", sans-serif;
+    font-family: "Manrope", sans-serif;
     font-weight: normal;
     font-style: normal;
     font-size: 12px;
@@ -303,7 +303,7 @@
   .text-shadow-1 {
     color: transparent;
     font-size: 18px;
-    font-family: "Palanquin", sans-serif;
+    font-family: "Manrope", sans-serif;
     font-weight: bold;
     background: url("./assets/green.jpeg");
     background-size: 70% 70%;
@@ -312,7 +312,7 @@
   }
 
   .counter-text {
-    font-family: "Palanquin", sans-serif;
+    font-family: "Manrope", sans-serif;
     font-weight: bold;
     font-size: 20px;
     line-height: 0.2;
@@ -323,7 +323,7 @@
   .text-shadow-1 {
     color: transparent;
     font-size: 15px;
-    font-family: "Palanquin", sans-serif;
+    font-family: "Manrope", sans-serif;
     font-weight: bold;
     background: url("./assets/green.jpeg");
     background-size: 50% 50%;
@@ -342,7 +342,7 @@
   display: inline;
   padding: 10px 20px 10px 20px;
   font-size: 15px;
-  font-family: "Palanquin", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 300px;
   box-shadow: 0px 5px 10px 10px rgba(74, 255, 24, 0.233);
 }

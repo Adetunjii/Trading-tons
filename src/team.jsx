@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import * as lanre from "./assets/LanreAwojoodu.jpg";
-import * as charles from "./assets/charles.png";
 import * as folabi from "./assets/folabi.jpg";
-
+import * as emeil from "./assets/emeil.png";
 import {
   MDBRow,
   MDBModalBody,
@@ -50,7 +49,7 @@ class Team extends Component {
       },
       {
         name: "Emiel Bakker",
-        imageUrl: "",
+        imageUrl: emeil,
         description: `
           He's a Dutch with over 20 years as a soft commodity trader. He specializes in the supplying of spices, raw coffee, cocoa products, tea, nuts, dried fruit, seeds and pulses.
           He has extensive relationships with suppliers of numerous countries of oriin and buyers across the globe. Emiel years of experience is a major value added for Sourcing and Produce. 

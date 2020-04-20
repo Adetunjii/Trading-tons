@@ -20,14 +20,14 @@
 }
 
 .goods-text {
-    font-family: 'Palanquin', sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-size: 16px;
     font-weight: normal;
     color: rgb(19, 151, 19)
 }
 
 .product-name {
-    font-family: 'Palanquin', sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-size: 25px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -36,8 +36,8 @@
 }
 
 .product-text {
-    font-family: 'Palanquin', sans-serif;
-    font-size: 18px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
     font-weight: normal;
     color: grey;
     letter-spacing: 0.3px;

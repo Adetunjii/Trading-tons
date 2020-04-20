@@ -77,8 +77,8 @@ const Product = (props) => {
         <div
           className="bg-white text-center"
           style={{
-            paddingTop: "150px",
-            paddingBottom: "150px",
+            paddingTop: "50px",
+            paddingBottom: "50px",
             borderBottomLeftRadius: "40px",
             borderBottomRightRadius: "40px",
           }}

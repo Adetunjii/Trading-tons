@@ -79,10 +79,10 @@ const Contact = (props) => {
               </MDBContainer>
             </div>
             <div className="col-md-7 px-5 py-3">
-              <div className="row">
+              <div className="flex-row">
                 <h2 className="contact-header">Let's Chat</h2>
               </div>
-              <div className="text-left row  quality-text">
+              <div className="text-left flex-row  quality-text">
                 <p>
                   We are friendly and available to chat.
                   <br />
@@ -90,24 +90,15 @@ const Contact = (props) => {
                 </p>
               </div>
 
-              <div className="row">
+              <div className="flex-row">
                 <h2 className="contact-header">Address:</h2>
               </div>
-              <div className="text-left quality-text">
+              <div className="text-left flex-row quality-text">
                 <p>
                   87 Allen Avenue, Ikeja Lagos State, Nigeria. <br />
                   +234 8146132690 (8am to 5pm Weekdays)
                 </p>
-                <p>
-                  <MDBIcon far icon="envelope" className="red-text" />
-                  <a
-                    className="quality-text px-2"
-                    href="mailto:http://webmail.sourcingandproduce.com/appsuite/"
-                  >
-                    webmail.sourcingandproduce.com/appsuite
-                  </a>
-                </p>
-                <p>
+                <p classNmae="text-left flex-row">
                   <MDBIcon fab icon="youtube" className="red-text">
                     <a className="quality-text px-2" href="#">
                       Sourcing and produce
@@ -118,6 +109,19 @@ const Contact = (props) => {
                   <MDBIcon fab icon="instagram" className="red-text" />
                   <a className="quality-text px-2">Sourcingandproduce</a>
                 </p>
+                <div className="flex-row">
+                  <MDBBtn
+                    className="text-white"
+                    style={{
+                      cursor: "pointer",
+                    }}
+                    size="md"
+                    color="success"
+                    href="http://webmail.sourcingandproduce.com/appsuite/#"
+                  >
+                    Login to our webmail
+                  </MDBBtn>
+                </div>
               </div>
             </div>
           </div>

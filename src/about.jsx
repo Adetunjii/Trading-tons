@@ -32,7 +32,7 @@ const About = (props) => {
           </div>
         </div>
 
-        <div className="margin card-shadow">
+        <div className="card-shadow my-5">
           <MDBCard
             className="card-rounded p-5"
             style={{ borderRadius: "15px" }}

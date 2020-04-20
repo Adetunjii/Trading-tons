@@ -1,14 +1,14 @@
 .about-header {
-    font-family: 'Palanquin', sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-weight: 900;
     font-size: 50px;
     color: grey;
 }
 
 .about-text {
-    font-family: 'Palanquin', sans-serif;
-    font-weight: 500;
-    font-size: 18px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.9px;
     font-style: normal;
@@ -16,7 +16,7 @@
 }
 
 .quality-header {
-    font-family: 'Palanquin', sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-weight: 900;
     font-size: 35px;
     line-height: 2;
@@ -24,15 +24,15 @@
     color: grey;
 }
 
-.quality-text {
-    font-family: 'Palanquin', sans-serif;
+/* .quality-text {
+    font-family: 'Manrope', sans-serif;
     font-weight: normal;
     font-style: normal;
     font-size: 18px;
     line-height: 1.5;
     letter-spacing: 0.2px;
     color: rgb(143, 143, 143);
-}
+} */
 
 .card-shadow {
     box-shadow: 0px 5px 10px 10px rgba(74, 255, 24, 0.233);
@@ -51,7 +51,7 @@
 
 
 .counter-text {
-    font-family: 'Palanquin', sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-weight: bold;
     font-size: 35px;
     line-height: 1;
@@ -61,7 +61,7 @@
 
 @media only screen and (max-width: 768px) {
     .counter-text {
-        font-family: 'Palanquin', sans-serif;
+        font-family: 'Manrope', sans-serif;
         font-weight: 900;
         font-size: 25px;
         line-height: 1;
@@ -70,7 +70,7 @@
     }
 
     .quality-header {
-        font-family: 'Palanquin', sans-serif;
+        font-family: 'Manrope', sans-serif;
         font-weight: 900;
         font-size: 30px;
         line-height: 2;
@@ -78,15 +78,16 @@
         color: rgb(126, 123, 123);
     }
 
+    /* 
     .quality-text {
-        font-family: 'Palanquin', sans-serif;
-        font-weight: normal;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 500;
         font-style: normal;
         font-size: 14px;
         letter-spacing: 1px;
         line-height: 1.2;
         color: rgb(202, 201, 201);
-    }
+    } */
 }
 
 .counter-container {
