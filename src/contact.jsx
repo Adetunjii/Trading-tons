@@ -120,6 +120,9 @@ const Contact = (props) => {
                     href="http://webmail.sourcingandproduce.com/appsuite/#"
                   >
                     Login to our webmail
+                    <span className="px-2">
+                      <MDBIcon fas icon="arrow-right" />
+                    </span>
                   </MDBBtn>
                 </div>
               </div>
