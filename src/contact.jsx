@@ -92,13 +92,13 @@ const Contact = (props) => {
 
               <div className="flex-row">
                 <h2 className="contact-header">Address:</h2>
-              </div>
+              </div
               <div className="text-left flex-row quality-text">
                 <p>
                   87 Allen Avenue, Ikeja Lagos State, Nigeria. <br />
                   +234 8146132690 (8am to 5pm Weekdays)
                 </p>
-                <p classNmae="text-left flex-row">
+                <p className="text-left flex-row">
                   <MDBIcon fab icon="youtube" className="red-text">
                     <a className="quality-text px-2" href="#">
                       Sourcing and produce
