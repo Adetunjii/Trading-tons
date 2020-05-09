@@ -92,7 +92,7 @@ const Contact = (props) => {
 
               <div className="flex-row">
                 <h2 className="contact-header">Address:</h2>
-              </div
+              </div>
               <div className="text-left flex-row quality-text">
                 <p>
                   87 Allen Avenue, Ikeja Lagos State, Nigeria. <br />
