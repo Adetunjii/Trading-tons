@@ -5,6 +5,7 @@ import Product from "./product";
 import Contact from "./contact";
 import Team from "./team";
 import * as cover from "./assets/cover.jpg";
+import * as logo from "./logo.jpeg";
 import "./App.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap-css-only/css/bootstrap.min.css";
@@ -150,7 +151,12 @@ const App = () => {
             <MDBNavbar dark expand="lg" className="z-depth-0">
               <MDBContainer fluid className="px-lg-5">
                 <MDBNavbarBrand href="/">
-                  <strong className="text-shadow-1">SOURCING & PRODUCE</strong>
+                  <img
+                    src={logo}
+                    alt="sourcing and produce"
+                    className="img-responsive"
+                    style={{ height: "50px", width: "50px" }}
+                  />
                 </MDBNavbarBrand>
                 <MDBNavbarToggler onClick={handleClick} />
                 <MDBCollapse isOpen={isOpen} navbar>
